@@ -1,0 +1,5797 @@
+# 技能质量门禁报告
+
+- 模式: `verify`（verify 模式：manifest 含 1 条 approved / 共 1 条）
+- 技能总数: 6988｜干净: 1642｜有问题: 5346
+- ERROR(失败门禁): 958｜WARN(软警告): 4825
+
+## 问题类型分布
+
+- weak_trigger: 4825
+- missing_required_field: 937
+- unsafe_path: 21
+
+## 问题清单
+
+- [07-移动端开发专家] frontmatter 缺必填字段: name
+- [07-移动端开发专家] frontmatter 缺必填字段: description
+- WARN:[addyosmani-doubt-driven-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[addyosmani-idea-refine] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[addyosmani-observability-and-instrumentation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[addyosmani-source-driven-development] description 未含触发语义（场景/关键词），不利自动调用
+- [afrexai-database-engineer] frontmatter 缺必填字段: name
+- [afrexai-database-engineer] frontmatter 缺必填字段: description
+- WARN:[ag-00-andruia-consultant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-007] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-10-andruia-skill-smith] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-20-andruia-niche-intelligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-2slides-ppt-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-3d-web-experience] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ab-test-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-accessibility-compliance-accessibility-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-accesslint-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-accesslint-diff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-accesslint-scan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-accint-commitments] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-accint-frames] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-accint-solve] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-active-directory-attacks] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-activecampaign-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ad-creative] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-adhx] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-advogado-criminal] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-advogado-especialista] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aegisops-ai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-evaluation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-framework-azure-ai-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-manager-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-memory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-memory-mcp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-memory-systems] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-orchestration-improve-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-orchestration-multi-agent-optimize] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-self-scheduling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-squad] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agent-tool-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agentflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agentfolio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agentic-actions-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agentmail] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agents-v2-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-agenttrace-session-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-agent-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-agents-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-dev-jobs-mcp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-engineering-toolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-loop] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-md] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-ml] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-native-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-product] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-seo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-studio-image] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ai-wrapper-product] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-airflow-dag-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-airtable-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-akf-trust-metadata] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-algolia-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-algorithmic-art] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-alpha-vantage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-alternatives-pages] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-amazon-alexa] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-analytics-product] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-analytics-tracking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-android-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-android-dev] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-android-jetpack-compose-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-android-ui-journey-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-android_ui_verification] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-angular] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-angular-migration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-angular-state-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-angular-ui-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- [ag-animejs-animation] frontmatter 缺必填字段: name
+- [ag-animejs-animation] frontmatter 缺必填字段: description
+- WARN:[ag-anti-sleep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-anti-sycophancy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-antigravity-agent-manager] description 未含触发语义（场景/关键词），不利自动调用
+- [ag-antigravity-design-expert] frontmatter 缺必填字段: name
+- [ag-antigravity-design-expert] frontmatter 缺必填字段: description
+- WARN:[ag-antigravity-skill-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-antigravity-workflows] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aomi-transact] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-design-principles] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-documentation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-documentation-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-documenter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-endpoint-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-fuzzing-bug-bounty] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-onboarding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-sdk-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-security-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-security-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-api-testing-observability-api-mock] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-actor-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-actorization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-audience-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-brand-reputation-monitoring] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-competitor-intelligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-content-analytics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-ecommerce] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-influencer-discovery] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-lead-generation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-market-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-trend-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apify-ultimate-scraper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-app-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-app-store-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-appium-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-apple-notes-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-application-performance-performance-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-applicationinsights-web-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-architect-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-architecture-decision-records] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-architecture-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-arm-cortex-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-article-illustrations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-asana-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ask-matt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-astropy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-async-python-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-atlas-ledger] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-audio-transcriber] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-audit-context-building] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-audit-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-auri-core] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-auth-implementation-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-automated-triage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-autonomous-agent-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-autonomous-agents] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-avalonia-layout-zafiro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-avalonia-viewmodels-zafiro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-avalonia-zafiro-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-avoid-ai-writing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aws-agentic-ai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aws-cdk-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aws-cost-operations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aws-cost-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aws-mcp-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aws-penetration-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aws-serverless] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aws-serverless-eda] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aws-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-aws-sst-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-awt-e2e-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ax-extract-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-axiom] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azd-deployment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-agents-persistent-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-agents-persistent-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-anomalydetector-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-contentsafety-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-contentsafety-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-document-intelligence-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-document-intelligence-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-formrecognizer-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-language-conversations-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-openai-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-projects-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-projects-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-projects-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-projects-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-textanalytics-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-translation-document-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-translation-text-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-translation-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-vision-imageanalysis-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-vision-imageanalysis-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-voicelive-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-voicelive-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-voicelive-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-ai-voicelive-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-appconfiguration-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-appconfiguration-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-communication-callautomation-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-communication-callingserver-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-communication-chat-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-communication-sms-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-compute-batch-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-cosmos-db-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-cosmos-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-cosmos-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-data-tables-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-eventgrid-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-eventgrid-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-eventhub-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-eventhub-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-eventhub-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-functions] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-identity-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-identity-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-identity-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-keyvault-keys-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-keyvault-secrets-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-maps-search-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-messaging-webpubsub-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-mgmt-apicenter-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-mgmt-apimanagement-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-mgmt-applicationinsights-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-mgmt-arizeaiobservabilityeval-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-mgmt-botservice-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-mgmt-fabric-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-mgmt-mongodbatlas-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-mgmt-weightsandbiases-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-microsoft-playwright-testing-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-monitor-ingestion-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-monitor-opentelemetry-exporter-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-monitor-opentelemetry-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-monitor-query-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-postgres-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-resource-manager-cosmosdb-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-resource-manager-durabletask-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-resource-manager-mysql-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-resource-manager-playwright-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-resource-manager-postgresql-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-resource-manager-redis-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-resource-manager-sql-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-search-documents-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-security-keyvault-keys-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-servicebus-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-servicebus-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-servicebus-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-storage-blob-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-storage-blob-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-storage-file-share-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-storage-queue-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-storage-queue-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-azure-web-pubsub-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-backend-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-backend-dev-guidelines] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-backend-development-feature-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-backend-security-coder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-backtesting-frameworks] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bamboohr-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-basecamp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-baseline-ui] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bash-defensive-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bash-linux] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bash-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bash-scripting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bats-testing-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bdistill-behavioral-xray] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bdistill-knowledge-extraction] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-beautiful-prose] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-before-you-build] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-behavioral-modes] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bevy-ecs-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bill-gates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-billing-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-binary-analysis-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-biopython] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bitbucket-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-blockchain-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-blockrun] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-blog-writing-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-blueprint] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-box-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brand-guidelines-anthropic] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brand-guidelines-community] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brave-man] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brevo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-broken-authentication] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brooks-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brooks-debt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brooks-harness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brooks-lint] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brooks-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brooks-sweep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-brooks-test] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-browser-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-browser-extension-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-browser-harness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-browser-testing-with-devtools] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bug-hunter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bugs-are-annoying] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-build] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-building-native-ui] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bulletmind] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bullmq-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bumblebee] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-bun-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-burp-suite-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-burpsuite-project-parser] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-business-analyst] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-c-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-c4-architecture-c4-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-c4-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-c4-component] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-c4-container] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-c4-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cal-com-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-calendly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-canva-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-canvas-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-carrier-relationship-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cc-skill-backend-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cc-skill-coding-standards] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cc-skill-continuous-learning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cc-skill-frontend-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cc-skill-project-guidelines-example] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cc-skill-security-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cc-skill-strategic-compact] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cdk-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-changelog-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-changelog-updates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-chat-widget] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-chrome-extension-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-churn-prevention] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cicd-automation-workflow-automate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cirq] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-citation-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ckw-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claimable-postgres] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-clarity-gate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-clarvia-aeo-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claude-ally-health] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claude-code-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claude-code-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claude-d3js-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claude-in-chrome-troubleshooting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claude-monitor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claude-scientific-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claude-settings-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claude-speed-reader] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-claude-win11-speckit-update-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-clean-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-clerk-auth] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-clickup-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-close-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cloud-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cloud-devops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cloud-penetration-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cloudflare-workers-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cloudformation-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cmux] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-coda-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-documentation-code-explain] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-documentation-doc-generate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-polish] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-refactoring-refactor-clean] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-refactoring-tech-debt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-review-ai-ai-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-review-checklist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-review-excellence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-reviewer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-showcase-react-ui-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-showcase-testing-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-code-simplifier] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-codebase-audit-pre-push] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-codebase-cleanup-deps-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-codebase-cleanup-refactor-clean] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-codebase-cleanup-tech-debt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-codebase-to-wordpress-converter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-codex-fable5] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-codex-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-codex-subagent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cold-email] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-comfyui-gateway] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-competitive-landscape] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-competitor-alternatives] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-competitor-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-competitor-tracking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-complexity-cuts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-comprehensive-review-pr-enhance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-computer-use-agents] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-computer-vision-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-conductor-implement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-conductor-manage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-conductor-new-track] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-conductor-revert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-conductor-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-conductor-status] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-conductor-validator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-confluence-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-constant-time-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-container-security-hardening] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-content-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-content-marketer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-content-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-context-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-context-degradation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-context-driven-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-context-fundamentals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-context-guardian] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-context-kit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-context-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-context-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-context-window-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-context7-auto-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-conversation-memory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-convertkit-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-convex] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-copilot-sdk] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-copy-editing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cost-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cpp-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cqrs-implementation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cred-omega] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-crewai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cron-doctor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-crypto-bd-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-csharp-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cucumber-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-customer-support] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-customs-trade-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cv-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cyber-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-cypress-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-daily] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-daily-gift] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-daily-news-report] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-data-engineering-data-driven-feature] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-data-engineering-data-pipeline] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-data-quality-frameworks] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-data-scientist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-data-storytelling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-data-structure-protocol] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-database-admin] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-database-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-database-cloud-optimization-cost-optimize] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-database-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-database-migration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-database-migrations-migration-observability] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-database-migrations-sql-migrations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-database-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-datadog-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dbos-golang] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dbos-python] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dbos-typescript] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dbt-transformation-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ddd-context-mapping] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ddd-strategic-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ddd-tactical-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-debugger] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-debugging-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-debugging-strategies] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-deep-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-defi-protocol-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-defuddle] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-delegating-to-agents] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dependency-management-deps-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dependency-upgrade] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-deployment-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-deployment-pipeline-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-deployment-procedures] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-deployment-validation-config-validate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-design-md] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-design-orchestration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-design-spatial] description 未含触发语义（场景/关键词），不利自动调用
+- [ag-design-spells] frontmatter 缺必填字段: name
+- [ag-design-spells] frontmatter 缺必填字段: description
+- WARN:[ag-design-system] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-design-ux] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-deterministic-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-devcontainer-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-developer-listening] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-developer-onboarding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-developer-sandbox] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-developer-seo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-developer-signup-flow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-devops-deploy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-devops-troubleshooter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-diary] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-discord-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-discord-bot-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dispatch] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-distribute-skill-to-all-agents] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-distributed-debugging-debug-trace] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-distributed-tracing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-django-access-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-django-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-doc2math] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-docker-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-docs-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-docs-as-marketing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-documentation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-documentation-generation-doc-generate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-documentation-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-docusign-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-domain-driven-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dos-verify-done-claims] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dotnet-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dotnet-backend] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dotnet-backend-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-drizzle-migration-conflict] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-drizzle-orm-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dropbox-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dwarf-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-dx-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-e2e-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-e2e-testing-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-earllm-build] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-eas-update-insights] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ecl-harness-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-efficient-web-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ejentum-reasoning-harness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-electron-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-elixir-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-elon-musk] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-email-sequence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-email-systems] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-embedding-strategies] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-emblemai-crypto-wallet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-emergency-card] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-employment-contract-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-energy-procurement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-enhance-prompt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-environment-setup-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-error-debugging-error-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-error-debugging-error-trace] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-error-detective] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-error-diagnostics-error-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-error-diagnostics-error-trace] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-error-handling-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ethical-hacking-methodology] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-event-sourcing-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-event-staffing-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-event-staffing-ordering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-evolution] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-exa-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-examprep-ai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-explain-like-socrates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-api-routes] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-brownfield] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-cicd-workflows] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-deployment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-dev-client] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-examples] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-module] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-tailwind-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-ui] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-ui-jetpack-compose] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-expo-ui-swift-ui] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-faf-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-faf-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-faf-wizard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fal-audio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fal-generate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fal-image-edit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fal-platform] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fal-upscale] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fal-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-family-health-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fastapi-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fastapi-router-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fastapi-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-favicon] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fda-food-safety-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fda-medtech-compliance-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ffuf-claude-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ffuf-web-fuzzing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-figma-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-file-organizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-file-path-traversal] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-file-uploads] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-find-bugs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-firebase] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-firecrawl-scraper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-firmware-analyst] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fitness-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fix-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fixing-accessibility] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fixing-metadata] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fixing-motion-performance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-flowhunt-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-flutter-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-folder-specific-claude-and-agents-md] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-food-database-query] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-form-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fp-async] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fp-backend] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fp-data-transforms] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fp-errors] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fp-pragmatic] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fp-react] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fp-refactor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fp-ts-errors] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fp-ts-pragmatic] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fp-ts-react] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-framework-migration-code-migrate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-framework-migration-deps-upgrade] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-framework-migration-legacy-modernize] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-free-tier-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-free-tool-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-freshdesk-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-freshservice-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-api-integration-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-data-contracts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-dev-guidelines] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-mobile-development-component-scaffold] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-mobile-security-xss-scan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-observability] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-optimistic-mutations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-security-coder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-seo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-slides] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-slides-frontend-slides] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-frontend-ui-dark-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-fsi-compliance-checker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-game-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-gcp-cloud-run] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-gdb-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-gdpr-data-handling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-geminiignore-finops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-geo-fundamentals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-geoffrey-hinton] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-gh-review-requests] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-gha-security-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-git-advanced-workflows] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-git-hooks-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-git-pr-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-git-pr-workflows-git-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-git-pr-workflows-onboard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-git-pr-workflows-pr-enhance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-git-pushing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-github-actions-advanced] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-github-actions-debugger] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-github-actions-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-github-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-github-issue-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-github-workflow-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-gitlab-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-gitlab-ci-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-gitops-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-global-chat-agent-discovery] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-gmail-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-go-concurrency-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-go-in-depth] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-go-playwright] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-go-rod-master] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-goal-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-goal-loop] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-godot-4-migration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-godot-gdscript-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-golang-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-google-analytics-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-google-calendar-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-google-docs-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-google-drive-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-google-sheets-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-google-slides-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-googlesheets-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-grafana-dashboards] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-graphql] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-graphql-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-grill-me] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-grill-with-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-growth-engine] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-grpc-golang] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-handoff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hasdata-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-haskell-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-health-trend-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-helium-mcp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-helm-chart-scaffolding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-helpdesk-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hf-mem] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hierarchical-agent-memory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-components-content] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-components-controls] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-components-dialogs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-components-layout] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-components-menus] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-components-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-components-status] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-components-system] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-foundations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-inputs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-platforms] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-project-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hig-technologies] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hono] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hosted-agents-v2-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hr-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-html-injection-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hubspot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hubspot-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugging-face-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugging-face-community-evals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugging-face-dataset-viewer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugging-face-datasets] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugging-face-evaluation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugging-face-jobs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugging-face-model-trainer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugging-face-paper-publisher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugging-face-tool-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugging-face-vision-trainer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-huggingface-lora-space-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-huggingface-spaces] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-huggingface-zerogpu] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hugo-to-markdown] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-humanize-chinese] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hybrid-cloud-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hybrid-cloud-networking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-hyperexecute-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-i18n-localization] description 未含触发语义（场景/关键词），不利自动调用
+- [ag-iconsax-library] frontmatter 缺必填字段: name
+- [ag-iconsax-library] frontmatter 缺必填字段: description
+- WARN:[ag-idea-darwin] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-idea-os] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-idor-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ii-commons] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ilya-sutskever] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-image-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-image-studio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-imagen] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-implement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-improve-codebase-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-incident-responder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-incident-response-smart-fix] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-incident-runbook-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-indexing-issue-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-infinite-gratitude] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-infinity] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ingest-youtube] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-inngest] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-instagram] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-instagram-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-interactive-portfolio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-intercom-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-internal-comms] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-interview-coach] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-interview-style-doc-building] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-invariant-guard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-inventory-demand-planning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ios-debugger-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ios-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-issues] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-istio-traffic-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-it-manager-hospital] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-it-manager-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-itil-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-java-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-javascript-mastery] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-javascript-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-javascript-testing-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-javascript-typescript-typescript-scaffold] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-jest-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-jira-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-jobgpt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-jq] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-json-canvas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-julia-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-junit-5-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-junta-leiloeiros] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-k6-load-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-k8s-manifest-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-k8s-security-policies] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-kaizen] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-keyword-extractor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-klaviyo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-kotler-macro-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-kotlin-coroutines-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-kpi-dashboard-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-kubernetes-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-kubernetes-deployment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-kubestellar-console] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lambda-lang] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lambdatest-agent-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-landing-page-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-langchain-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-langgraph] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-laravel-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-laravel-security-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-last30days] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-launch-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lead-magnets] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-legacy-modernizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-legal-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-leiloeiro-avaliacao] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-leiloeiro-edital] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-leiloeiro-ia] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-leiloeiro-juridico] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-leiloeiro-mercado] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-leiloeiro-risco] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lemmaly] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lesson-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lex] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lightning-architecture-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lightning-channel-factories] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lightning-factory-explainer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-linear-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-linear-claude-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-linkedin-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-linkedin-post-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-linkedin-profile-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-linkerd-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lint-and-validate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-linux-privilege-escalation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-linux-shell-scripting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-linux-troubleshooting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-llm-app-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-llm-application-dev-ai-assistant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-llm-application-dev-langchain-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-llm-application-dev-prompt-optimize] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-llm-council] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-llm-evaluation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-llm-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-llm-structured-output] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-local-legal-seo-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-local-llm-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-logic-diff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-logic-explain] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-logic-fix-all] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-logic-lens] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-logic-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-logistics-exception-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-loki-mode] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-longbridge] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-longbridge-content] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-longbridge-fundamentals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-longbridge-market-data] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lookdev] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lookdev-auto] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-loop-library] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-loopy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-lovable-cleanup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-m365-agents-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-m365-agents-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-m365-agents-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-machine-learning-ops-ml-pipeline] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-macos-screen-recorder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-macos-spm-app-packaging] description 未含触发语义（场景/关键词），不利自动调用
+- [ag-magic-animator] frontmatter 缺必填字段: name
+- [ag-magic-animator] frontmatter 缺必填字段: description
+- [ag-magic-ui-generator] frontmatter 缺必填字段: name
+- [ag-magic-ui-generator] frontmatter 缺必填字段: description
+- WARN:[ag-mailchimp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mailtrap-managing-contacts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mailtrap-sending-emails] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mailtrap-setting-up-sending-domain] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mailtrap-testing-with-sandbox] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-make-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-animation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-basics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-deployment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-dsl] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-event-action] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-font] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-layout] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-platform] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-reference] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-shaders] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-splash] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-makepad-widgets] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-malware-analyst] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-manage-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-manifest] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-markdown-rendering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-market-sizing-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-marketing-ideas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-marketing-psychology] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-matematico-tao] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mathguard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-matplotlib] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-maxia] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mcp-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mcp-tool-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mdpr-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-memory-forensics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-memory-safety-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-memory-systems] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mental-health-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mermaid-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mesh-memory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-microservices-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-microsoft-azure-webjobs-extensions-authentication-events-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-microsoft-teams-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-minecraft-bukkit-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-miro-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mise-configurator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mixpanel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ml-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ml-pipeline-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mlops-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-moatmri] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mobile-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mobile-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mobile-security-coder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mock-hunter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-modern-javascript-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-molykit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monday-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monetization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monopoly] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monorepo-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monorepo-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monte-carlo-asset-health] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monte-carlo-monitor-creation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monte-carlo-performance-diagnosis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monte-carlo-prevent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monte-carlo-push-ingestion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monte-carlo-remediation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-monte-carlo-validation-notebook] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-moodle-external-api-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-moyu] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-mtls-configuration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-multi-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-multi-agent-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-multi-agent-brainstorming] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-multi-agent-task-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-multi-cloud-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-multi-platform-apps-multi-platform] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-n8n-validation-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-n8n-workflow-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nanobanana-ppt-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-neon-ai-gateway] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-neon-functions] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-neon-object-storage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-neon-postgres] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-neon-postgres-branches] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-neon-postgres-egress-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nerdzao-elite] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nerdzao-elite-gemini-high] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nestjs-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-network-101] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-network-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-networkx] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-new-rails-project] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-news-sentiment-engine] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nextjs-app-router-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nextjs-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nextjs-seo-indexing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nextjs-supabase-auth] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nft-standards] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nodejs-backend-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nodejs-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nosql-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-not-a-vibe-coder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-not-human-search-mcp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-notebooklm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-notion-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-notion-template-business] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-nutrition-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-observability-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-observability-monitoring-monitor-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-observability-monitoring-slo-implement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-obsidian-bases] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-obsidian-markdown] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-occupational-health-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-accounting-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-automated-tests] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-backup-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-docker-deployment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-ecommerce-configurator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-edi-connector] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-hr-payroll-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-inventory-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-l10n-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-manufacturing-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-migration-helper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-module-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-orm-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-performance-tuner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-project-timesheet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-purchase-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-qweb-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-rpc-api] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-sales-crm-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-security-rules] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-shopify-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-upgrade-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-woocommerce-bridge] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odoo-xml-views-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-odw] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-office-productivity] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-on-call-handoff-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-one-drive-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-open-dynamic-workflows] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-openapi-spec-generation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-openapi-spec-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-openclaw-github-repo-commander] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-options-flow-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-oral-health-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-orchestrate-batch-refactor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-os-scripting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-oss-hunter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-osterwalder-canvas-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-outlook-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-outlook-calendar-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-page-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pagerduty-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pagespeed-enhancer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-paid-ads] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pakistan-payments-stack] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-papers-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-payment-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-paypal-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-paywall-upgrade-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pci-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pdf-official] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pentest-checklist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pentest-commands] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-performance-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-performance-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-performance-profiling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-performance-testing-review-ai-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-permission-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-personal-tool-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-photopea-embedded-editor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-php-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pi-custom-model] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pi-web-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pilot-protocol] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pipecat-friday-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pipedrive-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-plaid-fintech] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-plan-writing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-playwright-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-playwright-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-podcast-generation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-polis-protocol] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-polis-protocol-a-self-optimizing-city-of-agents] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-popup-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-posix-shell-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-postgres-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-postgresql] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-postgresql-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-postgresql-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-posthog-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-postman-collection-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-postman-newman-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-postman-openapi-converter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-postmark-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-postmortem-writing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-powershell-windows] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pr-merge-champion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pr-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pre-release-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pre-ship-gate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-premium-3d-website] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pricing-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-prisma-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-privacy-mask] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-privilege-escalation-methods] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-product-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-product-inventor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-product-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-product-manager-toolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-product-marketing-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-production-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-production-code-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-production-scheduling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-professional-proofreader] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-programmatic-seo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-progressive-estimation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-progressive-web-app] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-project-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-project-skill-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-prometheus-configuration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-prompt-caching] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-prompt-engineering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-prompt-engineering-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-prompt-library] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-protect-mcp-governance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-protocol-reverse-engineering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-prototype] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pubmed-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-puppeteer-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-push-skill-to-github] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-puzzle-activity-planner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pydantic-ai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pydantic-models-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pypict-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-pytest-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-python-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-python-development-python-scaffold] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-python-fastapi-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-python-packaging] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-python-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-python-performance-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-python-pptx-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-python-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-python-testing-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-qiskit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-quality-nonconformance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-quant-analyst] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-radix-ui-design-system] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-rag-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-rag-implementation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-rayden-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-rayden-use] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-rclone-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-react-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-react-component-performance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-react-flow-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-react-flow-node-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-react-modernization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-react-native-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-react-nextjs-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-react-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-react-state-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-react-ui-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-read-all-adrs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-readme] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-recallmax] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-receiving-code-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-recsys-pipeline-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-recursive-context-pruning-token-budgeting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-red-team-tactics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-red-team-tools] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-reddit-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-redis-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-reference-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-referral-program] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-rehabilitation-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-remote-gpu-trainer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-remotion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-remotion-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-render-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-repo-maintainer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-research-prompt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-returns-reverse-logistics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-reverse-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-review-swarm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-revops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-rich-elicitation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-riffkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-risk-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-risk-metrics-calculation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-robius-app-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-robius-event-action] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-robius-matrix-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-robius-state-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-robius-widget-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-robot-framework-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-routerbase-model-gateway] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ruby-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-run-deep-swe] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-runapi-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-runaway-guard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-rust-async-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-rust-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-saas-multi-tenant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-saga-orchestration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sales-automator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sales-enablement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-salesforce-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-salesforce-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sam-altman] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sast-configuration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-satori] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-scala-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-scanning-tools] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-scanpy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-schema-markup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-schema-markup-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-scientific-writing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-screen-reader-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-screenstudio-alt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-scroll-experience] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seaborn] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-search-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-secrets-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-security-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-security-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-security-bluebook-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-security-compliance-compliance-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-security-requirement-extraction] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-security-scanning-security-dependencies] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-security-scanning-security-hardening] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-security-scanning-security-sast] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seek-and-analyze-video] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-segment-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-segment-cdp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-selenium-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-semgrep-rule-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sendgrid-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-senior-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-senior-frontend] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-senior-fullstack] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sentry-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-aeo-blog-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-aeo-content-cluster] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-aeo-content-quality-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-aeo-internal-linking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-aeo-keyword-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-aeo-landing-page-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-aeo-meta-description-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-aeo-schema-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-authority-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-cannibalization-detector] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-competitor-pages] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-content] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-content-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-content-planner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-content-refresher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-content-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-forensic-incident-response] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-fundamentals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-geo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-hreflang] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-images] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-keyword-strategist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-meta-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-page] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-plan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-programmatic] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-schema] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-sitemap] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-snippet-hunter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-structure-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-seo-technical] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-server-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-service-mesh-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-service-mesh-observability] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-setup-matt-pocock-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sexual-health-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-shadcn] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-shader-programming-glsl] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sharp-coder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sharp-edges] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-shellcheck-configuration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-shodan-reconnaissance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-shopify-apps] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-shopify-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-shopify-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-short] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-signup-flow-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-simplify-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-site-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-creator-ms] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-improver] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-installer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-issue] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-rails-upgrade] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-scanner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-seekers] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-sentinel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-suggester] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skill-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skin-health-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-skyvern-browser-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-slack-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-slack-bot-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-slack-gif-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sleep-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-slo-implementation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-smart-git-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-smartui-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-smtp-penetration-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-snowflake-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-social-content] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-social-metadata-hardening] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-social-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-social-post-writer-seo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-socialclaw] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-solidity-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-spark-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-spec-to-code-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-speckit-updater] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-speed] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sql-injection-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sql-optimization-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sql-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sql-sentinel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sqlmap-database-pentesting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-square-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-squirrel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sred-project-organizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sred-work-summary] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ssh-penetration-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-stability-ai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-startup-analyst] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-startup-business-analyst-business-case] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-startup-business-analyst-financial-projections] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-startup-business-analyst-market-opportunity] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-startup-financial-modeling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-startup-metrics-framework] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-statsmodels] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-steve-jobs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-stitch-loop] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-stitch-ui-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-stripe-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-stripe-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-styleseed-design-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-subagent-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-supabase-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-supabase-postgres-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-superpowers-lab] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-supply-chain-risk-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-survey-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sveltekit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-swift-concurrency-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-swiftui-liquid-glass] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-swiftui-performance-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-swiftui-ui-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-swiftui-view-refactor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-sympy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-systems-programming-rust-project] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tailwind-design-system] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tailwind-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tanstack-query-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-task-intelligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tavily-web] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tcm-constitution-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tdd-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tdd-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tdd-workflows-tdd-green] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tdd-workflows-tdd-red] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-team-collaboration-issue] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-team-composition-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-technical-change-tracker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-telegram] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-telegram-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-telegram-bot-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-telegram-mini-app] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-temporal-python-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-temporal-python-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-terraform-aws-modules] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-terraform-infrastructure] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-terraform-module-library] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-terraform-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-terraform-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-test-automator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-test-fixing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-test-framework-migration-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-testing-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-testing-qa] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-testng-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-the-honoured-one] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-theme-factory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threat-mitigation-mapping] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threat-modeling-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threejs-animation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threejs-fundamentals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threejs-geometry] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threejs-loaders] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threejs-materials] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threejs-postprocessing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threejs-shaders] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threejs-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-threejs-textures] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tiktok-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tmux] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-to-issues] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-to-prd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-todoist-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tokenwise] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tool-use-guardian] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tools-page-seo-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-top-web-vulnerabilities] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-trading-ledger] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-train-sentence-transformers] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-travel-health-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-trello-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-triage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-trl-training] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-trpc-fullstack] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tune-monitor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-turborepo-caching] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-tutorial-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-twilio-communications] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-twitter-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-typescript-advanced-types] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-typescript-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-typescript-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-a11y] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-component] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-lint] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-motion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-page] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-pattern] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-score] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-tokens] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-update] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-ux-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ui-visual-validator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-uniprot-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-unit-testing-test-generate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-unity-ai-game-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-unity-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-unity-ecs-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-unreal-engine-cpp-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-unship] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-unslop] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-unslop-commit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-unslop-file] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-unslop-review] description 未含触发语义（场景/关键词），不利自动调用
+- [ag-unsplash-integration] frontmatter 缺必填字段: name
+- [ag-unsplash-integration] frontmatter 缺必填字段: description
+- WARN:[ag-update-swiftui-apis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-upgrading-expo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-upstash-qstash] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-usage-based-pricing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-using-git-worktrees] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-using-neon] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-uv-package-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ux-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-ux-copy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-uxui-principles] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-variant-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-varlock] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-varlock-claude-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vector-database-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vector-index-tuning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vercel-ai-sdk-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vercel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vercel-cli-with-tokens] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vercel-deployment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vercel-optimize] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vercel-react-view-transitions] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-verification-before-completion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vexor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vibe-code-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vibe-code-cleanup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vibecode-production-qa-validator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vibers-code-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-viboscope] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-video-content-extractor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-videodb] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-videodb-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-viral-generator-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vitest-skill] description 未含触发语义（场景/关键词），不利自动调用
+- [ag-vizcom] frontmatter 缺必填字段: name
+- [ag-vizcom] frontmatter 缺必填字段: description
+- WARN:[ag-voice-agents] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-voice-ai-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-voice-ai-engine-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vps-server-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vscode-extension-guide-en] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-vulnerability-scanner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-warren-buffett] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wcag-audit-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-weaviate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-weaviate-cookbooks] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-web-artifacts-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-web-design-guidelines] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-web-media-getter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-web-performance-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-web-project-brainstorming] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-web-scraper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-web-security-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-web3-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-webapp-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-webdriverio-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-webflow-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wechat-official-account-strategist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-weightloss-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wellally-tech] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wgm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-whatsapp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-whatsapp-cloud-api] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wiki-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wiki-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wiki-onboarding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wiki-page-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wiki-qa] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wiki-vitepress] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-windows-privilege-escalation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-windows-shell-reliability] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wireshark-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wjttc-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wjttc-tester] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wordpress] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wordpress-centric-high-seo-optimized-blogwriting-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wordpress-penetration-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wordpress-plugin-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wordpress-theme-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wordpress-woocommerce-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-workflow-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-workflow-orchestration-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-workorai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wp-site-health-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-wrike-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-writing-great-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-x-article-publisher-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-x402-express-wrapper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-xiaohongshu-content-strategist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-xss-html-injection] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-xvary-stock-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-yann-lecun] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-yann-lecun-debate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-yann-lecun-filosofia] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-yann-lecun-tecnico] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-yao-meta-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-yes-md] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-youtube-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-youtube-full] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-youtube-notetaker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-youtube-seo-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-youtube-summarizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-youtube-transcript] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-zapier-make-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-zeroize-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-zipai-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-zod-validation-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-zoho-crm-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-zoom-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ag-zustand-store-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agent-email] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-agentbay-aio-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-amap-traffic] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-boss-job-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-china-stock-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-douban-movie-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-find-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-im-reminder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-moltbook-hot-posts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-qwen-wanx-comic-gen] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-stock-watcher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-weibo-hot-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[agentbay-wuying-browser-use] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[aihot] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[aippt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-agent-factory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-app-store-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-aws-solution-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-claude-md-enhancer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-codex-cli-bridge] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-content-trend-researcher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-hook-factory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-ms365-tenant-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-scrum-master-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-slash-command-factory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-social-media-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-tdd-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[alirezarezvani-tech-stack-evaluator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[andrej-karpathy-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[android-native-dev] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[another_them] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[anthropics-analyzing-financial-statements] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[anthropics-applying-brand-guidelines] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[anthropics-creating-financial-models] description 未含触发语义（场景/关键词），不利自动调用
+- [ar-README] frontmatter 缺必填字段: name
+- [ar-README] frontmatter 缺必填字段: description
+- [ar-TEMPLATE] frontmatter 缺必填字段: name
+- [ar-TEMPLATE] frontmatter 缺必填字段: description
+- [ar-a11y-audit] frontmatter 缺必填字段: name
+- [ar-a11y-audit] frontmatter 缺必填字段: description
+- [ar-ab-test-setup] frontmatter 缺必填字段: name
+- [ar-ab-test-setup] frontmatter 缺必填字段: description
+- [ar-ad-creative] frontmatter 缺必填字段: name
+- [ar-ad-creative] frontmatter 缺必填字段: description
+- [ar-adversarial-reviewer] frontmatter 缺必填字段: name
+- [ar-adversarial-reviewer] frontmatter 缺必填字段: description
+- [ar-aeo] frontmatter 缺必填字段: name
+- [ar-aeo] frontmatter 缺必填字段: description
+- WARN:[ar-agent-decision-receipts] description 未含触发语义（场景/关键词），不利自动调用
+- [ar-agent-designer] frontmatter 缺必填字段: name
+- [ar-agent-designer] frontmatter 缺必填字段: description
+- WARN:[ar-agent-harness] description 未含触发语义（场景/关键词），不利自动调用
+- [ar-agent-protocol] frontmatter 缺必填字段: name
+- [ar-agent-protocol] frontmatter 缺必填字段: description
+- [ar-agent-workflow-designer] frontmatter 缺必填字段: name
+- [ar-agent-workflow-designer] frontmatter 缺必填字段: description
+- [ar-agenthub] frontmatter 缺必填字段: name
+- [ar-agenthub] frontmatter 缺必填字段: description
+- [ar-agile-product-owner] frontmatter 缺必填字段: name
+- [ar-agile-product-owner] frontmatter 缺必填字段: description
+- [ar-ai-act-readiness] frontmatter 缺必填字段: name
+- [ar-ai-act-readiness] frontmatter 缺必填字段: description
+- [ar-ai-security] frontmatter 缺必填字段: name
+- [ar-ai-security] frontmatter 缺必填字段: description
+- [ar-aims-audit] frontmatter 缺必填字段: name
+- [ar-aims-audit] frontmatter 缺必填字段: description
+- [ar-analytics-tracking] frontmatter 缺必填字段: name
+- [ar-analytics-tracking] frontmatter 缺必填字段: description
+- [ar-andreessen] frontmatter 缺必填字段: name
+- [ar-andreessen] frontmatter 缺必填字段: description
+- [ar-api-design-reviewer] frontmatter 缺必填字段: name
+- [ar-api-design-reviewer] frontmatter 缺必填字段: description
+- [ar-api-test-suite-builder] frontmatter 缺必填字段: name
+- [ar-api-test-suite-builder] frontmatter 缺必填字段: description
+- [ar-app-store-optimization] frontmatter 缺必填字段: name
+- [ar-app-store-optimization] frontmatter 缺必填字段: description
+- [ar-apple-hig-expert] frontmatter 缺必填字段: name
+- [ar-apple-hig-expert] frontmatter 缺必填字段: description
+- WARN:[ar-arquiteto-de-empresa] description 未含触发语义（场景/关键词），不利自动调用
+- [ar-atlassian-admin] frontmatter 缺必填字段: name
+- [ar-atlassian-admin] frontmatter 缺必填字段: description
+- [ar-atlassian-templates] frontmatter 缺必填字段: name
+- [ar-atlassian-templates] frontmatter 缺必填字段: description
+- [ar-autoresearch-agent] frontmatter 缺必填字段: name
+- [ar-autoresearch-agent] frontmatter 缺必填字段: description
+- [ar-aws-solution-architect] frontmatter 缺必填字段: name
+- [ar-aws-solution-architect] frontmatter 缺必填字段: description
+- [ar-azure-cloud-architect] frontmatter 缺必填字段: name
+- [ar-azure-cloud-architect] frontmatter 缺必填字段: description
+- [ar-behuman] frontmatter 缺必填字段: name
+- [ar-behuman] frontmatter 缺必填字段: description
+- [ar-board] frontmatter 缺必填字段: name
+- [ar-board] frontmatter 缺必填字段: description
+- [ar-board-deck-builder] frontmatter 缺必填字段: name
+- [ar-board-deck-builder] frontmatter 缺必填字段: description
+- [ar-board-meeting] frontmatter 缺必填字段: name
+- [ar-board-meeting] frontmatter 缺必填字段: description
+- [ar-board-prep] frontmatter 缺必填字段: name
+- [ar-board-prep] frontmatter 缺必填字段: description
+- [ar-boardroom] frontmatter 缺必填字段: name
+- [ar-boardroom] frontmatter 缺必填字段: description
+- [ar-brand-guidelines] frontmatter 缺必填字段: name
+- [ar-brand-guidelines] frontmatter 缺必填字段: description
+- [ar-brief] frontmatter 缺必填字段: name
+- [ar-brief] frontmatter 缺必填字段: description
+- [ar-browser-automation] frontmatter 缺必填字段: name
+- [ar-browser-automation] frontmatter 缺必填字段: description
+- [ar-browserstack] frontmatter 缺必填字段: name
+- [ar-browserstack] frontmatter 缺必填字段: description
+- [ar-business-growth-skills] frontmatter 缺必填字段: name
+- [ar-business-growth-skills] frontmatter 缺必填字段: description
+- [ar-business-investment-advisor] frontmatter 缺必填字段: name
+- [ar-business-investment-advisor] frontmatter 缺必填字段: description
+- [ar-business-operations-skills] frontmatter 缺必填字段: name
+- [ar-business-operations-skills] frontmatter 缺必填字段: description
+- [ar-c-level-agents] frontmatter 缺必填字段: name
+- [ar-c-level-agents] frontmatter 缺必填字段: description
+- [ar-c-level-skills] frontmatter 缺必填字段: name
+- [ar-c-level-skills] frontmatter 缺必填字段: description
+- [ar-caio-review] frontmatter 缺必填字段: name
+- [ar-caio-review] frontmatter 缺必填字段: description
+- [ar-campaign-analytics] frontmatter 缺必填字段: name
+- [ar-campaign-analytics] frontmatter 缺必填字段: description
+- [ar-capa-officer] frontmatter 缺必填字段: name
+- [ar-capa-officer] frontmatter 缺必填字段: description
+- [ar-capacity-planner] frontmatter 缺必填字段: name
+- [ar-capacity-planner] frontmatter 缺必填字段: description
+- [ar-capture] frontmatter 缺必填字段: name
+- [ar-capture] frontmatter 缺必填字段: description
+- [ar-caveman] frontmatter 缺必填字段: name
+- [ar-caveman] frontmatter 缺必填字段: description
+- [ar-cco-review] frontmatter 缺必填字段: name
+- [ar-cco-review] frontmatter 缺必填字段: description
+- [ar-cdo-review] frontmatter 缺必填字段: name
+- [ar-cdo-review] frontmatter 缺必填字段: description
+- [ar-ceo-advisor] frontmatter 缺必填字段: name
+- [ar-ceo-advisor] frontmatter 缺必填字段: description
+- [ar-cfo-advisor] frontmatter 缺必填字段: name
+- [ar-cfo-advisor] frontmatter 缺必填字段: description
+- [ar-cfo-review] frontmatter 缺必填字段: name
+- [ar-cfo-review] frontmatter 缺必填字段: description
+- [ar-challenge] frontmatter 缺必填字段: name
+- [ar-challenge] frontmatter 缺必填字段: description
+- [ar-change-management] frontmatter 缺必填字段: name
+- [ar-change-management] frontmatter 缺必填字段: description
+- [ar-changelog] frontmatter 缺必填字段: name
+- [ar-changelog] frontmatter 缺必填字段: description
+- [ar-changelog-generator] frontmatter 缺必填字段: name
+- [ar-changelog-generator] frontmatter 缺必填字段: description
+- [ar-channel-economics] frontmatter 缺必填字段: name
+- [ar-channel-economics] frontmatter 缺必填字段: description
+- [ar-chaos-engineering] frontmatter 缺必填字段: name
+- [ar-chaos-engineering] frontmatter 缺必填字段: description
+- [ar-chaos-experiment] frontmatter 缺必填字段: name
+- [ar-chaos-experiment] frontmatter 缺必填字段: description
+- [ar-chief-ai-officer-advisor] frontmatter 缺必填字段: name
+- [ar-chief-ai-officer-advisor] frontmatter 缺必填字段: description
+- [ar-chief-customer-officer-advisor] frontmatter 缺必填字段: name
+- [ar-chief-customer-officer-advisor] frontmatter 缺必填字段: description
+- [ar-chief-data-officer-advisor] frontmatter 缺必填字段: name
+- [ar-chief-data-officer-advisor] frontmatter 缺必填字段: description
+- [ar-chief-of-staff] frontmatter 缺必填字段: name
+- [ar-chief-of-staff] frontmatter 缺必填字段: description
+- [ar-chro-advisor] frontmatter 缺必填字段: name
+- [ar-chro-advisor] frontmatter 缺必填字段: description
+- [ar-churn-prevention] frontmatter 缺必填字段: name
+- [ar-churn-prevention] frontmatter 缺必填字段: description
+- [ar-ci-cd-pipeline-builder] frontmatter 缺必填字段: name
+- [ar-ci-cd-pipeline-builder] frontmatter 缺必填字段: description
+- [ar-ciso-advisor] frontmatter 缺必填字段: name
+- [ar-ciso-advisor] frontmatter 缺必填字段: description
+- [ar-ciso-review] frontmatter 缺必填字段: name
+- [ar-ciso-review] frontmatter 缺必填字段: description
+- [ar-claude-coach] frontmatter 缺必填字段: name
+- [ar-claude-coach] frontmatter 缺必填字段: description
+- [ar-clinical-research] frontmatter 缺必填字段: name
+- [ar-clinical-research] frontmatter 缺必填字段: description
+- [ar-cloud-security] frontmatter 缺必填字段: name
+- [ar-cloud-security] frontmatter 缺必填字段: description
+- [ar-cmd-a11y-audit] frontmatter 缺必填字段: name
+- [ar-cmd-a11y-audit] frontmatter 缺必填字段: description
+- [ar-cmd-code-to-prd] frontmatter 缺必填字段: name
+- [ar-cmd-code-to-prd] frontmatter 缺必填字段: description
+- [ar-cmd-cs-aeo] frontmatter 缺必填字段: name
+- [ar-cmd-cs-aeo] frontmatter 缺必填字段: description
+- [ar-cmd-focused-fix] frontmatter 缺必填字段: name
+- [ar-cmd-focused-fix] frontmatter 缺必填字段: description
+- [ar-cmo-advisor] frontmatter 缺必填字段: name
+- [ar-cmo-advisor] frontmatter 缺必填字段: description
+- [ar-cmo-review] frontmatter 缺必填字段: name
+- [ar-cmo-review] frontmatter 缺必填字段: description
+- [ar-code-reviewer] frontmatter 缺必填字段: name
+- [ar-code-reviewer] frontmatter 缺必填字段: description
+- [ar-code-to-prd] frontmatter 缺必填字段: name
+- [ar-code-to-prd] frontmatter 缺必填字段: description
+- [ar-code-tour] frontmatter 缺必填字段: name
+- [ar-code-tour] frontmatter 缺必填字段: description
+- [ar-codebase-onboarding] frontmatter 缺必填字段: name
+- [ar-codebase-onboarding] frontmatter 缺必填字段: description
+- [ar-cold-email] frontmatter 缺必填字段: name
+- [ar-cold-email] frontmatter 缺必填字段: description
+- [ar-collab-proof] frontmatter 缺必填字段: name
+- [ar-collab-proof] frontmatter 缺必填字段: description
+- [ar-commercial-forecaster] frontmatter 缺必填字段: name
+- [ar-commercial-forecaster] frontmatter 缺必填字段: description
+- [ar-commercial-policy] frontmatter 缺必填字段: name
+- [ar-commercial-policy] frontmatter 缺必填字段: description
+- [ar-commercial-skills] frontmatter 缺必填字段: name
+- [ar-commercial-skills] frontmatter 缺必填字段: description
+- [ar-company-os] frontmatter 缺必填字段: name
+- [ar-company-os] frontmatter 缺必填字段: description
+- [ar-competitive-intel] frontmatter 缺必填字段: name
+- [ar-competitive-intel] frontmatter 缺必填字段: description
+- [ar-competitive-matrix] frontmatter 缺必填字段: name
+- [ar-competitive-matrix] frontmatter 缺必填字段: description
+- [ar-competitive-teardown] frontmatter 缺必填字段: name
+- [ar-competitive-teardown] frontmatter 缺必填字段: description
+- [ar-competitor-alternatives] frontmatter 缺必填字段: name
+- [ar-competitor-alternatives] frontmatter 缺必填字段: description
+- WARN:[ar-compliance-os] description 未含触发语义（场景/关键词），不利自动调用
+- [ar-compliance-os-bundle] frontmatter 缺必填字段: name
+- [ar-compliance-os-bundle] frontmatter 缺必填字段: description
+- [ar-compliance-readiness] frontmatter 缺必填字段: name
+- [ar-compliance-readiness] frontmatter 缺必填字段: description
+- [ar-confluence-expert] frontmatter 缺必填字段: name
+- [ar-confluence-expert] frontmatter 缺必填字段: description
+- [ar-content-creator] frontmatter 缺必填字段: name
+- [ar-content-creator] frontmatter 缺必填字段: description
+- [ar-content-humanizer] frontmatter 缺必填字段: name
+- [ar-content-humanizer] frontmatter 缺必填字段: description
+- [ar-content-production] frontmatter 缺必填字段: name
+- [ar-content-production] frontmatter 缺必填字段: description
+- [ar-content-strategist] frontmatter 缺必填字段: name
+- [ar-content-strategist] frontmatter 缺必填字段: description
+- [ar-content-strategy] frontmatter 缺必填字段: name
+- [ar-content-strategy] frontmatter 缺必填字段: description
+- [ar-context-engine] frontmatter 缺必填字段: name
+- [ar-context-engine] frontmatter 缺必填字段: description
+- [ar-contract-and-proposal-writer] frontmatter 缺必填字段: name
+- [ar-contract-and-proposal-writer] frontmatter 缺必填字段: description
+- [ar-coo-advisor] frontmatter 缺必填字段: name
+- [ar-coo-advisor] frontmatter 缺必填字段: description
+- [ar-copy-editing] frontmatter 缺必填字段: name
+- [ar-copy-editing] frontmatter 缺必填字段: description
+- [ar-copywriting] frontmatter 缺必填字段: name
+- [ar-copywriting] frontmatter 缺必填字段: description
+- [ar-coverage] frontmatter 缺必填字段: name
+- [ar-coverage] frontmatter 缺必填字段: description
+- [ar-cpo-advisor] frontmatter 缺必填字段: name
+- [ar-cpo-advisor] frontmatter 缺必填字段: description
+- [ar-cpo-review] frontmatter 缺必填字段: name
+- [ar-cpo-review] frontmatter 缺必填字段: description
+- [ar-cro-advisor] frontmatter 缺必填字段: name
+- [ar-cro-advisor] frontmatter 缺必填字段: description
+- [ar-cro-review] frontmatter 缺必填字段: name
+- [ar-cro-review] frontmatter 缺必填字段: description
+- [ar-cross-eval] frontmatter 缺必填字段: name
+- [ar-cross-eval] frontmatter 缺必填字段: description
+- [ar-cs-aeo] frontmatter 缺必填字段: name
+- [ar-cs-aeo] frontmatter 缺必填字段: description
+- [ar-cs-agile-product-owner] frontmatter 缺必填字段: name
+- [ar-cs-agile-product-owner] frontmatter 缺必填字段: description
+- [ar-cs-backend-engineer] frontmatter 缺必填字段: name
+- [ar-cs-backend-engineer] frontmatter 缺必填字段: description
+- [ar-cs-backend-review] frontmatter 缺必填字段: name
+- [ar-cs-backend-review] frontmatter 缺必填字段: description
+- [ar-cs-ceo-advisor] frontmatter 缺必填字段: name
+- [ar-cs-ceo-advisor] frontmatter 缺必填字段: description
+- [ar-cs-content-creator] frontmatter 缺必填字段: name
+- [ar-cs-content-creator] frontmatter 缺必填字段: description
+- [ar-cs-cto-advisor] frontmatter 缺必填字段: name
+- [ar-cs-cto-advisor] frontmatter 缺必填字段: description
+- [ar-cs-demand-gen-specialist] frontmatter 缺必填字段: name
+- [ar-cs-demand-gen-specialist] frontmatter 缺必填字段: description
+- [ar-cs-engineer-grill] frontmatter 缺必填字段: name
+- [ar-cs-engineer-grill] frontmatter 缺必填字段: description
+- [ar-cs-engineering-lead] frontmatter 缺必填字段: name
+- [ar-cs-engineering-lead] frontmatter 缺必填字段: description
+- [ar-cs-financial-analyst] frontmatter 缺必填字段: name
+- [ar-cs-financial-analyst] frontmatter 缺必填字段: description
+- [ar-cs-frontend-engineer] frontmatter 缺必填字段: name
+- [ar-cs-frontend-engineer] frontmatter 缺必填字段: description
+- [ar-cs-frontend-review] frontmatter 缺必填字段: name
+- [ar-cs-frontend-review] frontmatter 缺必填字段: description
+- [ar-cs-fullstack-engineer] frontmatter 缺必填字段: name
+- [ar-cs-fullstack-engineer] frontmatter 缺必填字段: description
+- [ar-cs-fullstack-review] frontmatter 缺必填字段: name
+- [ar-cs-fullstack-review] frontmatter 缺必填字段: description
+- [ar-cs-growth-strategist] frontmatter 缺必填字段: name
+- [ar-cs-growth-strategist] frontmatter 缺必填字段: description
+- [ar-cs-karpathy-reviewer] frontmatter 缺必填字段: name
+- [ar-cs-karpathy-reviewer] frontmatter 缺必填字段: description
+- [ar-cs-onboard] frontmatter 缺必填字段: name
+- [ar-cs-onboard] frontmatter 缺必填字段: description
+- [ar-cs-product-analyst] frontmatter 缺必填字段: name
+- [ar-cs-product-analyst] frontmatter 缺必填字段: description
+- [ar-cs-product-manager] frontmatter 缺必填字段: name
+- [ar-cs-product-manager] frontmatter 缺必填字段: description
+- [ar-cs-product-strategist] frontmatter 缺必填字段: name
+- [ar-cs-product-strategist] frontmatter 缺必填字段: description
+- [ar-cs-project-manager] frontmatter 缺必填字段: name
+- [ar-cs-project-manager] frontmatter 缺必填字段: description
+- [ar-cs-quality-regulatory] frontmatter 缺必填字段: name
+- [ar-cs-quality-regulatory] frontmatter 缺必填字段: description
+- [ar-cs-senior-engineer] frontmatter 缺必填字段: name
+- [ar-cs-senior-engineer] frontmatter 缺必填字段: description
+- [ar-cs-ux-researcher] frontmatter 缺必填字段: name
+- [ar-cs-ux-researcher] frontmatter 缺必填字段: description
+- [ar-cs-webinar] frontmatter 缺必填字段: name
+- [ar-cs-webinar] frontmatter 缺必填字段: description
+- [ar-cs-webinar-marketer] frontmatter 缺必填字段: name
+- [ar-cs-webinar-marketer] frontmatter 缺必填字段: description
+- [ar-cs-wiki-ingestor] frontmatter 缺必填字段: name
+- [ar-cs-wiki-ingestor] frontmatter 缺必填字段: description
+- [ar-cs-wiki-librarian] frontmatter 缺必填字段: name
+- [ar-cs-wiki-librarian] frontmatter 缺必填字段: description
+- [ar-cs-wiki-linter] frontmatter 缺必填字段: name
+- [ar-cs-wiki-linter] frontmatter 缺必填字段: description
+- [ar-cs-workspace-admin] frontmatter 缺必填字段: name
+- [ar-cs-workspace-admin] frontmatter 缺必填字段: description
+- [ar-cto-advisor] frontmatter 缺必填字段: name
+- [ar-cto-advisor] frontmatter 缺必填字段: description
+- [ar-cto-review] frontmatter 缺必填字段: name
+- [ar-cto-review] frontmatter 缺必填字段: description
+- [ar-culture-architect] frontmatter 缺必填字段: name
+- [ar-culture-architect] frontmatter 缺必填字段: description
+- [ar-customer-success-manager] frontmatter 缺必填字段: name
+- [ar-customer-success-manager] frontmatter 缺必填字段: description
+- [ar-data-quality-auditor] frontmatter 缺必填字段: name
+- [ar-data-quality-auditor] frontmatter 缺必填字段: description
+- [ar-database-designer] frontmatter 缺必填字段: name
+- [ar-database-designer] frontmatter 缺必填字段: description
+- [ar-database-schema-designer] frontmatter 缺必填字段: name
+- [ar-database-schema-designer] frontmatter 缺必填字段: description
+- [ar-deal-desk] frontmatter 缺必填字段: name
+- [ar-deal-desk] frontmatter 缺必填字段: description
+- [ar-decide] frontmatter 缺必填字段: name
+- [ar-decide] frontmatter 缺必填字段: description
+- [ar-decision-logger] frontmatter 缺必填字段: name
+- [ar-decision-logger] frontmatter 缺必填字段: description
+- [ar-demo-video] frontmatter 缺必填字段: name
+- [ar-demo-video] frontmatter 缺必填字段: description
+- [ar-dependency-auditor] frontmatter 缺必填字段: name
+- [ar-dependency-auditor] frontmatter 缺必填字段: description
+- [ar-design-system] frontmatter 缺必填字段: name
+- [ar-design-system] frontmatter 缺必填字段: description
+- [ar-devops-engineer] frontmatter 缺必填字段: name
+- [ar-devops-engineer] frontmatter 缺必填字段: description
+- [ar-docker-development] frontmatter 缺必填字段: name
+- [ar-docker-development] frontmatter 缺必填字段: description
+- [ar-dossier] frontmatter 缺必填字段: name
+- [ar-dossier] frontmatter 缺必填字段: description
+- [ar-email-sequence] frontmatter 缺必填字段: name
+- [ar-email-sequence] frontmatter 缺必填字段: description
+- [ar-email-template-builder] frontmatter 缺必填字段: name
+- [ar-email-template-builder] frontmatter 缺必填字段: description
+- [ar-engineering-advanced-skills] frontmatter 缺必填字段: name
+- [ar-engineering-advanced-skills] frontmatter 缺必填字段: description
+- [ar-engineering-skills] frontmatter 缺必填字段: name
+- [ar-engineering-skills] frontmatter 缺必填字段: description
+- [ar-env-secrets-manager] frontmatter 缺必填字段: name
+- [ar-env-secrets-manager] frontmatter 缺必填字段: description
+- [ar-epic-design] frontmatter 缺必填字段: name
+- [ar-epic-design] frontmatter 缺必填字段: description
+- [ar-eu-ai-act-specialist] frontmatter 缺必填字段: name
+- [ar-eu-ai-act-specialist] frontmatter 缺必填字段: description
+- [ar-eval] frontmatter 缺必填字段: name
+- [ar-eval] frontmatter 缺必填字段: description
+- [ar-execute] frontmatter 缺必填字段: name
+- [ar-execute] frontmatter 缺必填字段: description
+- [ar-executive-mentor] frontmatter 缺必填字段: name
+- [ar-executive-mentor] frontmatter 缺必填字段: description
+- [ar-experiment-designer] frontmatter 缺必填字段: name
+- [ar-experiment-designer] frontmatter 缺必填字段: description
+- [ar-extract] frontmatter 缺必填字段: name
+- [ar-extract] frontmatter 缺必填字段: description
+- [ar-fda-consultant-specialist] frontmatter 缺必填字段: name
+- [ar-fda-consultant-specialist] frontmatter 缺必填字段: description
+- [ar-fda-qsr-audit-prep] frontmatter 缺必填字段: name
+- [ar-fda-qsr-audit-prep] frontmatter 缺必填字段: description
+- [ar-feature-flags-architect] frontmatter 缺必填字段: name
+- [ar-feature-flags-architect] frontmatter 缺必填字段: description
+- [ar-finance-lead] frontmatter 缺必填字段: name
+- [ar-finance-lead] frontmatter 缺必填字段: description
+- [ar-finance-skills] frontmatter 缺必填字段: name
+- [ar-finance-skills] frontmatter 缺必填字段: description
+- [ar-financial-analyst] frontmatter 缺必填字段: name
+- [ar-financial-analyst] frontmatter 缺必填字段: description
+- [ar-financial-health] frontmatter 缺必填字段: name
+- [ar-financial-health] frontmatter 缺必填字段: description
+- [ar-fix] frontmatter 缺必填字段: name
+- [ar-fix] frontmatter 缺必填字段: description
+- [ar-flag-cleanup] frontmatter 缺必填字段: name
+- [ar-flag-cleanup] frontmatter 缺必填字段: description
+- [ar-focused-fix] frontmatter 缺必填字段: name
+- [ar-focused-fix] frontmatter 缺必填字段: description
+- [ar-form-cro] frontmatter 缺必填字段: name
+- [ar-form-cro] frontmatter 缺必填字段: description
+- [ar-founder-coach] frontmatter 缺必填字段: name
+- [ar-founder-coach] frontmatter 缺必填字段: description
+- [ar-founder-mode] frontmatter 缺必填字段: name
+- [ar-founder-mode] frontmatter 缺必填字段: description
+- [ar-free-tool-strategy] frontmatter 缺必填字段: name
+- [ar-free-tool-strategy] frontmatter 缺必填字段: description
+- [ar-freeze] frontmatter 缺必填字段: name
+- [ar-freeze] frontmatter 缺必填字段: description
+- [ar-full-page-screenshot] frontmatter 缺必填字段: name
+- [ar-full-page-screenshot] frontmatter 缺必填字段: description
+- [ar-gc-review] frontmatter 缺必填字段: name
+- [ar-gc-review] frontmatter 缺必填字段: description
+- [ar-gcp-cloud-architect] frontmatter 缺必填字段: name
+- [ar-gcp-cloud-architect] frontmatter 缺必填字段: description
+- [ar-gdpr-audit-prep] frontmatter 缺必填字段: name
+- [ar-gdpr-audit-prep] frontmatter 缺必填字段: description
+- [ar-gdpr-dsgvo-expert] frontmatter 缺必填字段: name
+- [ar-gdpr-dsgvo-expert] frontmatter 缺必填字段: description
+- [ar-general-counsel-advisor] frontmatter 缺必填字段: name
+- [ar-general-counsel-advisor] frontmatter 缺必填字段: description
+- [ar-generate] frontmatter 缺必填字段: name
+- [ar-generate] frontmatter 缺必填字段: description
+- [ar-git-worktree-manager] frontmatter 缺必填字段: name
+- [ar-git-worktree-manager] frontmatter 缺必填字段: description
+- [ar-google-workspace] frontmatter 缺必填字段: name
+- [ar-google-workspace] frontmatter 缺必填字段: description
+- [ar-google-workspace-cli] frontmatter 缺必填字段: name
+- [ar-google-workspace-cli] frontmatter 缺必填字段: description
+- [ar-grants] frontmatter 缺必填字段: name
+- [ar-grants] frontmatter 缺必填字段: description
+- [ar-grill-me] frontmatter 缺必填字段: name
+- [ar-grill-me] frontmatter 缺必填字段: description
+- [ar-grill-with-docs] frontmatter 缺必填字段: name
+- [ar-grill-with-docs] frontmatter 缺必填字段: description
+- [ar-growth-marketer] frontmatter 缺必填字段: name
+- [ar-growth-marketer] frontmatter 缺必填字段: description
+- [ar-handoff] frontmatter 缺必填字段: name
+- [ar-handoff] frontmatter 缺必填字段: description
+- [ar-hard-call] frontmatter 缺必填字段: name
+- [ar-hard-call] frontmatter 缺必填字段: description
+- [ar-helm-chart-builder] frontmatter 缺必填字段: name
+- [ar-helm-chart-builder] frontmatter 缺必填字段: description
+- [ar-inbox-setup] frontmatter 缺必填字段: name
+- [ar-inbox-setup] frontmatter 缺必填字段: description
+- [ar-inbox-triage] frontmatter 缺必填字段: name
+- [ar-inbox-triage] frontmatter 缺必填字段: description
+- [ar-incident-commander] frontmatter 缺必填字段: name
+- [ar-incident-commander] frontmatter 缺必填字段: description
+- [ar-incident-response] frontmatter 缺必填字段: name
+- [ar-incident-response] frontmatter 缺必填字段: description
+- [ar-information-security-manager-iso27001] frontmatter 缺必填字段: name
+- [ar-information-security-manager-iso27001] frontmatter 缺必填字段: description
+- [ar-init] frontmatter 缺必填字段: name
+- [ar-init] frontmatter 缺必填字段: description
+- [ar-internal-comms] frontmatter 缺必填字段: name
+- [ar-internal-comms] frontmatter 缺必填字段: description
+- [ar-internal-narrative] frontmatter 缺必填字段: name
+- [ar-internal-narrative] frontmatter 缺必填字段: description
+- [ar-interview-system-designer] frontmatter 缺必填字段: name
+- [ar-interview-system-designer] frontmatter 缺必填字段: description
+- [ar-intl-expansion] frontmatter 缺必填字段: name
+- [ar-intl-expansion] frontmatter 缺必填字段: description
+- [ar-isms-audit-expert] frontmatter 缺必填字段: name
+- [ar-isms-audit-expert] frontmatter 缺必填字段: description
+- [ar-iso13485-audit-prep] frontmatter 缺必填字段: name
+- [ar-iso13485-audit-prep] frontmatter 缺必填字段: description
+- [ar-iso27001-audit-prep] frontmatter 缺必填字段: name
+- [ar-iso27001-audit-prep] frontmatter 缺必填字段: description
+- [ar-iso42001-specialist] frontmatter 缺必填字段: name
+- [ar-iso42001-specialist] frontmatter 缺必填字段: description
+- [ar-jira-expert] frontmatter 缺必填字段: name
+- [ar-jira-expert] frontmatter 缺必填字段: description
+- [ar-karpathy-check] frontmatter 缺必填字段: name
+- [ar-karpathy-check] frontmatter 缺必填字段: description
+- [ar-karpathy-coder] frontmatter 缺必填字段: name
+- [ar-karpathy-coder] frontmatter 缺必填字段: description
+- [ar-knowledge-ops] frontmatter 缺必填字段: name
+- [ar-knowledge-ops] frontmatter 缺必填字段: description
+- [ar-kubernetes-operator] frontmatter 缺必填字段: name
+- [ar-kubernetes-operator] frontmatter 缺必填字段: description
+- [ar-landing] frontmatter 缺必填字段: name
+- [ar-landing] frontmatter 缺必填字段: description
+- [ar-landing-page-generator] frontmatter 缺必填字段: name
+- [ar-landing-page-generator] frontmatter 缺必填字段: description
+- [ar-launch-strategy] frontmatter 缺必填字段: name
+- [ar-launch-strategy] frontmatter 缺必填字段: description
+- [ar-litreview] frontmatter 缺必填字段: name
+- [ar-litreview] frontmatter 缺必填字段: description
+- [ar-llm-cost-optimizer] frontmatter 缺必填字段: name
+- [ar-llm-cost-optimizer] frontmatter 缺必填字段: description
+- [ar-llm-wiki] frontmatter 缺必填字段: name
+- [ar-llm-wiki] frontmatter 缺必填字段: description
+- WARN:[ar-local-seo-manager] description 未含触发语义（场景/关键词），不利自动调用
+- [ar-loop] frontmatter 缺必填字段: name
+- [ar-loop] frontmatter 缺必填字段: description
+- [ar-ma-playbook] frontmatter 缺必填字段: name
+- [ar-ma-playbook] frontmatter 缺必填字段: description
+- [ar-markdown-html-orchestrator] frontmatter 缺必填字段: name
+- [ar-markdown-html-orchestrator] frontmatter 缺必填字段: description
+- [ar-market-research] frontmatter 缺必填字段: name
+- [ar-market-research] frontmatter 缺必填字段: description
+- [ar-marketing-context] frontmatter 缺必填字段: name
+- [ar-marketing-context] frontmatter 缺必填字段: description
+- [ar-marketing-demand-acquisition] frontmatter 缺必填字段: name
+- [ar-marketing-demand-acquisition] frontmatter 缺必填字段: description
+- [ar-marketing-ideas] frontmatter 缺必填字段: name
+- [ar-marketing-ideas] frontmatter 缺必填字段: description
+- [ar-marketing-ops] frontmatter 缺必填字段: name
+- [ar-marketing-ops] frontmatter 缺必填字段: description
+- [ar-marketing-psychology] frontmatter 缺必填字段: name
+- [ar-marketing-psychology] frontmatter 缺必填字段: description
+- [ar-marketing-skills] frontmatter 缺必填字段: name
+- [ar-marketing-skills] frontmatter 缺必填字段: description
+- [ar-marketing-strategy-pmm] frontmatter 缺必填字段: name
+- [ar-marketing-strategy-pmm] frontmatter 缺必填字段: description
+- [ar-mcp-server-builder] frontmatter 缺必填字段: name
+- [ar-mcp-server-builder] frontmatter 缺必填字段: description
+- [ar-md-document] frontmatter 缺必填字段: name
+- [ar-md-document] frontmatter 缺必填字段: description
+- [ar-md-review] frontmatter 缺必填字段: name
+- [ar-md-review] frontmatter 缺必填字段: description
+- [ar-md-slides] frontmatter 缺必填字段: name
+- [ar-md-slides] frontmatter 缺必填字段: description
+- [ar-mdr-745-specialist] frontmatter 缺必填字段: name
+- [ar-mdr-745-specialist] frontmatter 缺必填字段: description
+- [ar-meeting-analyzer] frontmatter 缺必填字段: name
+- [ar-meeting-analyzer] frontmatter 缺必填字段: description
+- [ar-merge] frontmatter 缺必填字段: name
+- [ar-merge] frontmatter 缺必填字段: description
+- [ar-migrate] frontmatter 缺必填字段: name
+- [ar-migrate] frontmatter 缺必填字段: description
+- [ar-migration-architect] frontmatter 缺必填字段: name
+- [ar-migration-architect] frontmatter 缺必填字段: description
+- [ar-monorepo-navigator] frontmatter 缺必填字段: name
+- [ar-monorepo-navigator] frontmatter 缺必填字段: description
+- [ar-ms365-tenant-manager] frontmatter 缺必填字段: name
+- [ar-ms365-tenant-manager] frontmatter 缺必填字段: description
+- WARN:[ar-named-persona-adversarial-review] description 未含触发语义（场景/关键词），不利自动调用
+- [ar-notebooklm] frontmatter 缺必填字段: name
+- [ar-notebooklm] frontmatter 缺必填字段: description
+- [ar-observability-designer] frontmatter 缺必填字段: name
+- [ar-observability-designer] frontmatter 缺必填字段: description
+- [ar-office-hours] frontmatter 缺必填字段: name
+- [ar-office-hours] frontmatter 缺必填字段: description
+- [ar-okr] frontmatter 缺必填字段: name
+- [ar-okr] frontmatter 缺必填字段: description
+- [ar-onboard] frontmatter 缺必填字段: name
+- [ar-onboard] frontmatter 缺必填字段: description
+- [ar-onboarding-cro] frontmatter 缺必填字段: name
+- [ar-onboarding-cro] frontmatter 缺必填字段: description
+- [ar-operator-audit] frontmatter 缺必填字段: name
+- [ar-operator-audit] frontmatter 缺必填字段: description
+- [ar-org-health-diagnostic] frontmatter 缺必填字段: name
+- [ar-org-health-diagnostic] frontmatter 缺必填字段: description
+- [ar-page-cro] frontmatter 缺必填字段: name
+- [ar-page-cro] frontmatter 缺必填字段: description
+- [ar-paid-ads] frontmatter 缺必填字段: name
+- [ar-paid-ads] frontmatter 缺必填字段: description
+- [ar-partnerships-architect] frontmatter 缺必填字段: name
+- [ar-partnerships-architect] frontmatter 缺必填字段: description
+- [ar-patent] frontmatter 缺必填字段: name
+- [ar-patent] frontmatter 缺必填字段: description
+- [ar-paywall-upgrade-cro] frontmatter 缺必填字段: name
+- [ar-paywall-upgrade-cro] frontmatter 缺必填字段: description
+- [ar-performance-profiler] frontmatter 缺必填字段: name
+- [ar-performance-profiler] frontmatter 缺必填字段: description
+- [ar-persona] frontmatter 缺必填字段: name
+- [ar-persona] frontmatter 缺必填字段: description
+- [ar-pipeline] frontmatter 缺必填字段: name
+- [ar-pipeline] frontmatter 缺必填字段: description
+- [ar-plugin-audit] frontmatter 缺必填字段: name
+- [ar-plugin-audit] frontmatter 缺必填字段: description
+- [ar-pm-skills] frontmatter 缺必填字段: name
+- [ar-pm-skills] frontmatter 缺必填字段: description
+- [ar-popup-cro] frontmatter 缺必填字段: name
+- [ar-popup-cro] frontmatter 缺必填字段: description
+- [ar-post-mortem] frontmatter 缺必填字段: name
+- [ar-post-mortem] frontmatter 缺必填字段: description
+- [ar-postmortem] frontmatter 缺必填字段: name
+- [ar-postmortem] frontmatter 缺必填字段: description
+- [ar-pr-review-expert] frontmatter 缺必填字段: name
+- [ar-pr-review-expert] frontmatter 缺必填字段: description
+- [ar-prd] frontmatter 缺必填字段: name
+- [ar-prd] frontmatter 缺必填字段: description
+- [ar-pricing-strategist] frontmatter 缺必填字段: name
+- [ar-pricing-strategist] frontmatter 缺必填字段: description
+- [ar-pricing-strategy] frontmatter 缺必填字段: name
+- [ar-pricing-strategy] frontmatter 缺必填字段: description
+- [ar-process-mapper] frontmatter 缺必填字段: name
+- [ar-process-mapper] frontmatter 缺必填字段: description
+- [ar-procurement-optimizer] frontmatter 缺必填字段: name
+- [ar-procurement-optimizer] frontmatter 缺必填字段: description
+- [ar-product-analytics] frontmatter 缺必填字段: name
+- [ar-product-analytics] frontmatter 缺必填字段: description
+- [ar-product-discovery] frontmatter 缺必填字段: name
+- [ar-product-discovery] frontmatter 缺必填字段: description
+- [ar-product-manager] frontmatter 缺必填字段: name
+- [ar-product-manager] frontmatter 缺必填字段: description
+- [ar-product-manager-toolkit] frontmatter 缺必填字段: name
+- [ar-product-manager-toolkit] frontmatter 缺必填字段: description
+- [ar-product-research] frontmatter 缺必填字段: name
+- [ar-product-research] frontmatter 缺必填字段: description
+- [ar-product-skills] frontmatter 缺必填字段: name
+- [ar-product-skills] frontmatter 缺必填字段: description
+- [ar-product-strategist] frontmatter 缺必填字段: name
+- [ar-product-strategist] frontmatter 缺必填字段: description
+- [ar-programmatic-seo] frontmatter 缺必填字段: name
+- [ar-programmatic-seo] frontmatter 缺必填字段: description
+- [ar-project-health] frontmatter 缺必填字段: name
+- [ar-project-health] frontmatter 缺必填字段: description
+- [ar-promote] frontmatter 缺必填字段: name
+- [ar-promote] frontmatter 缺必填字段: description
+- [ar-prompt-engineer-toolkit] frontmatter 缺必填字段: name
+- [ar-prompt-engineer-toolkit] frontmatter 缺必填字段: description
+- [ar-prompt-governance] frontmatter 缺必填字段: name
+- [ar-prompt-governance] frontmatter 缺必填字段: description
+- [ar-pulse] frontmatter 缺必填字段: name
+- [ar-pulse] frontmatter 缺必填字段: description
+- [ar-pw] frontmatter 缺必填字段: name
+- [ar-pw] frontmatter 缺必填字段: description
+- [ar-qms-audit-expert] frontmatter 缺必填字段: name
+- [ar-qms-audit-expert] frontmatter 缺必填字段: description
+- [ar-quality-documentation-manager] frontmatter 缺必填字段: name
+- [ar-quality-documentation-manager] frontmatter 缺必填字段: description
+- [ar-quality-manager-qmr] frontmatter 缺必填字段: name
+- [ar-quality-manager-qmr] frontmatter 缺必填字段: description
+- [ar-quality-manager-qms-iso13485] frontmatter 缺必填字段: name
+- [ar-quality-manager-qms-iso13485] frontmatter 缺必填字段: description
+- [ar-ra-qm-skills] frontmatter 缺必填字段: name
+- [ar-ra-qm-skills] frontmatter 缺必填字段: description
+- [ar-rag-architect] frontmatter 缺必填字段: name
+- [ar-rag-architect] frontmatter 缺必填字段: description
+- [ar-red-team] frontmatter 缺必填字段: name
+- [ar-red-team] frontmatter 缺必填字段: description
+- [ar-referral-program] frontmatter 缺必填字段: name
+- [ar-referral-program] frontmatter 缺必填字段: description
+- [ar-reflect] frontmatter 缺必填字段: name
+- [ar-reflect] frontmatter 缺必填字段: description
+- [ar-regulatory-affairs-head] frontmatter 缺必填字段: name
+- [ar-regulatory-affairs-head] frontmatter 缺必填字段: description
+- [ar-remember] frontmatter 缺必填字段: name
+- [ar-remember] frontmatter 缺必填字段: description
+- [ar-report] frontmatter 缺必填字段: name
+- [ar-report] frontmatter 缺必填字段: description
+- WARN:[ar-research] description 未含触发语义（场景/关键词），不利自动调用
+- [ar-research-bundle] frontmatter 缺必填字段: name
+- [ar-research-bundle] frontmatter 缺必填字段: description
+- [ar-research-finance] frontmatter 缺必填字段: name
+- [ar-research-finance] frontmatter 缺必填字段: description
+- [ar-research-ops-skills] frontmatter 缺必填字段: name
+- [ar-research-ops-skills] frontmatter 缺必填字段: description
+- [ar-research-summarizer] frontmatter 缺必填字段: name
+- [ar-research-summarizer] frontmatter 缺必填字段: description
+- [ar-resume] frontmatter 缺必填字段: name
+- [ar-resume] frontmatter 缺必填字段: description
+- [ar-retro] frontmatter 缺必填字段: name
+- [ar-retro] frontmatter 缺必填字段: description
+- [ar-revenue-operations] frontmatter 缺必填字段: name
+- [ar-revenue-operations] frontmatter 缺必填字段: description
+- [ar-review] frontmatter 缺必填字段: name
+- [ar-review] frontmatter 缺必填字段: description
+- [ar-rfp-responder] frontmatter 缺必填字段: name
+- [ar-rfp-responder] frontmatter 缺必填字段: description
+- [ar-rice] frontmatter 缺必填字段: name
+- [ar-rice] frontmatter 缺必填字段: description
+- [ar-risk-management-specialist] frontmatter 缺必填字段: name
+- [ar-risk-management-specialist] frontmatter 缺必填字段: description
+- [ar-roadmap-communicator] frontmatter 缺必填字段: name
+- [ar-roadmap-communicator] frontmatter 缺必填字段: description
+- [ar-run] frontmatter 缺必填字段: name
+- [ar-run] frontmatter 缺必填字段: description
+- [ar-runbook-generator] frontmatter 缺必填字段: name
+- [ar-runbook-generator] frontmatter 缺必填字段: description
+- [ar-saas-health] frontmatter 缺必填字段: name
+- [ar-saas-health] frontmatter 缺必填字段: description
+- [ar-saas-metrics-coach] frontmatter 缺必填字段: name
+- [ar-saas-metrics-coach] frontmatter 缺必填字段: description
+- [ar-saas-scaffolder] frontmatter 缺必填字段: name
+- [ar-saas-scaffolder] frontmatter 缺必填字段: description
+- [ar-sales-engineer] frontmatter 缺必填字段: name
+- [ar-sales-engineer] frontmatter 缺必填字段: description
+- [ar-sample-skill] frontmatter 缺必填字段: name
+- [ar-sample-skill] frontmatter 缺必填字段: description
+- [ar-scenario-war-room] frontmatter 缺必填字段: name
+- [ar-scenario-war-room] frontmatter 缺必填字段: description
+- [ar-schema-markup] frontmatter 缺必填字段: name
+- [ar-schema-markup] frontmatter 缺必填字段: description
+- [ar-scrum-master] frontmatter 缺必填字段: name
+- [ar-scrum-master] frontmatter 缺必填字段: description
+- [ar-secrets-vault-manager] frontmatter 缺必填字段: name
+- [ar-secrets-vault-manager] frontmatter 缺必填字段: description
+- [ar-security-guidance] frontmatter 缺必填字段: name
+- [ar-security-guidance] frontmatter 缺必填字段: description
+- [ar-security-pen-testing] frontmatter 缺必填字段: name
+- [ar-security-pen-testing] frontmatter 缺必填字段: description
+- [ar-self-eval] frontmatter 缺必填字段: name
+- [ar-self-eval] frontmatter 缺必填字段: description
+- [ar-self-improving-agent] frontmatter 缺必填字段: name
+- [ar-self-improving-agent] frontmatter 缺必填字段: description
+- [ar-senior-architect] frontmatter 缺必填字段: name
+- [ar-senior-architect] frontmatter 缺必填字段: description
+- [ar-senior-backend] frontmatter 缺必填字段: name
+- [ar-senior-backend] frontmatter 缺必填字段: description
+- [ar-senior-computer-vision] frontmatter 缺必填字段: name
+- [ar-senior-computer-vision] frontmatter 缺必填字段: description
+- [ar-senior-data-engineer] frontmatter 缺必填字段: name
+- [ar-senior-data-engineer] frontmatter 缺必填字段: description
+- [ar-senior-data-scientist] frontmatter 缺必填字段: name
+- [ar-senior-data-scientist] frontmatter 缺必填字段: description
+- [ar-senior-devops] frontmatter 缺必填字段: name
+- [ar-senior-devops] frontmatter 缺必填字段: description
+- [ar-senior-frontend] frontmatter 缺必填字段: name
+- [ar-senior-frontend] frontmatter 缺必填字段: description
+- [ar-senior-fullstack] frontmatter 缺必填字段: name
+- [ar-senior-fullstack] frontmatter 缺必填字段: description
+- [ar-senior-ml-engineer] frontmatter 缺必填字段: name
+- [ar-senior-ml-engineer] frontmatter 缺必填字段: description
+- [ar-senior-pm] frontmatter 缺必填字段: name
+- [ar-senior-pm] frontmatter 缺必填字段: description
+- [ar-senior-prompt-engineer] frontmatter 缺必填字段: name
+- [ar-senior-prompt-engineer] frontmatter 缺必填字段: description
+- [ar-senior-qa] frontmatter 缺必填字段: name
+- [ar-senior-qa] frontmatter 缺必填字段: description
+- [ar-senior-secops] frontmatter 缺必填字段: name
+- [ar-senior-secops] frontmatter 缺必填字段: description
+- [ar-senior-security] frontmatter 缺必填字段: name
+- [ar-senior-security] frontmatter 缺必填字段: description
+- [ar-seo-audit] frontmatter 缺必填字段: name
+- [ar-seo-audit] frontmatter 缺必填字段: description
+- [ar-seo-auditor] frontmatter 缺必填字段: name
+- [ar-seo-auditor] frontmatter 缺必填字段: description
+- [ar-setup] frontmatter 缺必填字段: name
+- [ar-setup] frontmatter 缺必填字段: description
+- [ar-ship-gate] frontmatter 缺必填字段: name
+- [ar-ship-gate] frontmatter 缺必填字段: description
+- [ar-signup-flow-cro] frontmatter 缺必填字段: name
+- [ar-signup-flow-cro] frontmatter 缺必填字段: description
+- [ar-site-architecture] frontmatter 缺必填字段: name
+- [ar-site-architecture] frontmatter 缺必填字段: description
+- [ar-skill-security-auditor] frontmatter 缺必填字段: name
+- [ar-skill-security-auditor] frontmatter 缺必填字段: description
+- [ar-skill-tester] frontmatter 缺必填字段: name
+- [ar-skill-tester] frontmatter 缺必填字段: description
+- [ar-skills-chaos-engineering] frontmatter 缺必填字段: name
+- [ar-skills-chaos-engineering] frontmatter 缺必填字段: description
+- [ar-skills-chief-ai-officer-advisor] frontmatter 缺必填字段: name
+- [ar-skills-chief-ai-officer-advisor] frontmatter 缺必填字段: description
+- [ar-skills-chief-customer-officer-advisor] frontmatter 缺必填字段: name
+- [ar-skills-chief-customer-officer-advisor] frontmatter 缺必填字段: description
+- [ar-skills-chief-data-officer-advisor] frontmatter 缺必填字段: name
+- [ar-skills-chief-data-officer-advisor] frontmatter 缺必填字段: description
+- [ar-skills-eu-ai-act-specialist] frontmatter 缺必填字段: name
+- [ar-skills-eu-ai-act-specialist] frontmatter 缺必填字段: description
+- [ar-skills-feature-flags-architect] frontmatter 缺必填字段: name
+- [ar-skills-feature-flags-architect] frontmatter 缺必填字段: description
+- [ar-skills-general-counsel-advisor] frontmatter 缺必填字段: name
+- [ar-skills-general-counsel-advisor] frontmatter 缺必填字段: description
+- [ar-skills-handoff] frontmatter 缺必填字段: name
+- [ar-skills-handoff] frontmatter 缺必填字段: description
+- [ar-skills-init] frontmatter 缺必填字段: name
+- [ar-skills-init] frontmatter 缺必填字段: description
+- [ar-skills-iso42001-specialist] frontmatter 缺必填字段: name
+- [ar-skills-iso42001-specialist] frontmatter 缺必填字段: description
+- [ar-skills-kubernetes-operator] frontmatter 缺必填字段: name
+- [ar-skills-kubernetes-operator] frontmatter 缺必填字段: description
+- [ar-skills-review] frontmatter 缺必填字段: name
+- [ar-skills-review] frontmatter 缺必填字段: description
+- [ar-skills-run] frontmatter 缺必填字段: name
+- [ar-skills-run] frontmatter 缺必填字段: description
+- [ar-skills-slo-architect] frontmatter 缺必填字段: name
+- [ar-skills-slo-architect] frontmatter 缺必填字段: description
+- [ar-skills-status] frontmatter 缺必填字段: name
+- [ar-skills-status] frontmatter 缺必填字段: description
+- [ar-skills-status-2] frontmatter 缺必填字段: name
+- [ar-skills-status-2] frontmatter 缺必填字段: description
+- [ar-skills-vpe-advisor] frontmatter 缺必填字段: name
+- [ar-skills-vpe-advisor] frontmatter 缺必填字段: description
+- [ar-slo-architect] frontmatter 缺必填字段: name
+- [ar-slo-architect] frontmatter 缺必填字段: description
+- [ar-slo-design] frontmatter 缺必填字段: name
+- [ar-slo-design] frontmatter 缺必填字段: description
+- [ar-snowflake-development] frontmatter 缺必填字段: name
+- [ar-snowflake-development] frontmatter 缺必填字段: description
+- [ar-soc2-audit-prep] frontmatter 缺必填字段: name
+- [ar-soc2-audit-prep] frontmatter 缺必填字段: description
+- [ar-soc2-compliance] frontmatter 缺必填字段: name
+- [ar-soc2-compliance] frontmatter 缺必填字段: description
+- [ar-social-content] frontmatter 缺必填字段: name
+- [ar-social-content] frontmatter 缺必填字段: description
+- [ar-social-media-analyzer] frontmatter 缺必填字段: name
+- [ar-social-media-analyzer] frontmatter 缺必填字段: description
+- [ar-social-media-manager] frontmatter 缺必填字段: name
+- [ar-social-media-manager] frontmatter 缺必填字段: description
+- [ar-solo-founder] frontmatter 缺必填字段: name
+- [ar-solo-founder] frontmatter 缺必填字段: description
+- [ar-spawn] frontmatter 缺必填字段: name
+- [ar-spawn] frontmatter 缺必填字段: description
+- [ar-spec-driven-workflow] frontmatter 缺必填字段: name
+- [ar-spec-driven-workflow] frontmatter 缺必填字段: description
+- [ar-spec-to-repo] frontmatter 缺必填字段: name
+- [ar-spec-to-repo] frontmatter 缺必填字段: description
+- [ar-sprint-health] frontmatter 缺必填字段: name
+- [ar-sprint-health] frontmatter 缺必填字段: description
+- [ar-sprint-plan] frontmatter 缺必填字段: name
+- [ar-sprint-plan] frontmatter 缺必填字段: description
+- [ar-sql-database-assistant] frontmatter 缺必填字段: name
+- [ar-sql-database-assistant] frontmatter 缺必填字段: description
+- [ar-startup-cto] frontmatter 缺必填字段: name
+- [ar-startup-cto] frontmatter 缺必填字段: description
+- [ar-statistical-analyst] frontmatter 缺必填字段: name
+- [ar-statistical-analyst] frontmatter 缺必填字段: description
+- [ar-status] frontmatter 缺必填字段: name
+- [ar-status] frontmatter 缺必填字段: description
+- [ar-strategic-alignment] frontmatter 缺必填字段: name
+- [ar-strategic-alignment] frontmatter 缺必填字段: description
+- [ar-stress-test] frontmatter 缺必填字段: name
+- [ar-stress-test] frontmatter 缺必填字段: description
+- [ar-stripe-integration-expert] frontmatter 缺必填字段: name
+- [ar-stripe-integration-expert] frontmatter 缺必填字段: description
+- [ar-syllabus] frontmatter 缺必填字段: name
+- [ar-syllabus] frontmatter 缺必填字段: description
+- [ar-tc] frontmatter 缺必填字段: name
+- [ar-tc] frontmatter 缺必填字段: description
+- [ar-tc-tracker] frontmatter 缺必填字段: name
+- [ar-tc-tracker] frontmatter 缺必填字段: description
+- [ar-tdd] frontmatter 缺必填字段: name
+- [ar-tdd] frontmatter 缺必填字段: description
+- [ar-tdd-guide] frontmatter 缺必填字段: name
+- [ar-tdd-guide] frontmatter 缺必填字段: description
+- [ar-team-communications] frontmatter 缺必填字段: name
+- [ar-team-communications] frontmatter 缺必填字段: description
+- [ar-tech-debt] frontmatter 缺必填字段: name
+- [ar-tech-debt] frontmatter 缺必填字段: description
+- [ar-tech-debt-tracker] frontmatter 缺必填字段: name
+- [ar-tech-debt-tracker] frontmatter 缺必填字段: description
+- [ar-tech-stack-evaluator] frontmatter 缺必填字段: name
+- [ar-tech-stack-evaluator] frontmatter 缺必填字段: description
+- [ar-terraform-patterns] frontmatter 缺必填字段: name
+- [ar-terraform-patterns] frontmatter 缺必填字段: description
+- [ar-testrail] frontmatter 缺必填字段: name
+- [ar-testrail] frontmatter 缺必填字段: description
+- [ar-threat-detection] frontmatter 缺必填字段: name
+- [ar-threat-detection] frontmatter 缺必填字段: description
+- [ar-ui-design-system] frontmatter 缺必填字段: name
+- [ar-ui-design-system] frontmatter 缺必填字段: description
+- [ar-universal-scraping-architect] frontmatter 缺必填字段: name
+- [ar-universal-scraping-architect] frontmatter 缺必填字段: description
+- [ar-user-story] frontmatter 缺必填字段: name
+- [ar-user-story] frontmatter 缺必填字段: description
+- [ar-ux-researcher-designer] frontmatter 缺必填字段: name
+- [ar-ux-researcher-designer] frontmatter 缺必填字段: description
+- [ar-vendor-management] frontmatter 缺必填字段: name
+- [ar-vendor-management] frontmatter 缺必填字段: description
+- [ar-video-content-strategist] frontmatter 缺必填字段: name
+- [ar-video-content-strategist] frontmatter 缺必填字段: description
+- [ar-vpe-advisor] frontmatter 缺必填字段: name
+- [ar-vpe-advisor] frontmatter 缺必填字段: description
+- [ar-vpe-review] frontmatter 缺必填字段: name
+- [ar-vpe-review] frontmatter 缺必填字段: description
+- [ar-webinar-marketing] frontmatter 缺必填字段: name
+- [ar-webinar-marketing] frontmatter 缺必填字段: description
+- [ar-wiki-ingest] frontmatter 缺必填字段: name
+- [ar-wiki-ingest] frontmatter 缺必填字段: description
+- [ar-wiki-init] frontmatter 缺必填字段: name
+- [ar-wiki-init] frontmatter 缺必填字段: description
+- [ar-wiki-lint] frontmatter 缺必填字段: name
+- [ar-wiki-lint] frontmatter 缺必填字段: description
+- [ar-wiki-log] frontmatter 缺必填字段: name
+- [ar-wiki-log] frontmatter 缺必填字段: description
+- [ar-wiki-query] frontmatter 缺必填字段: name
+- [ar-wiki-query] frontmatter 缺必填字段: description
+- [ar-workflow-builder] frontmatter 缺必填字段: name
+- [ar-workflow-builder] frontmatter 缺必填字段: description
+- [ar-write-a-skill] frontmatter 缺必填字段: name
+- [ar-write-a-skill] frontmatter 缺必填字段: description
+- [ar-x-twitter-growth] frontmatter 缺必填字段: name
+- [ar-x-twitter-growth] frontmatter 缺必填字段: description
+- [ar-youtube-full] frontmatter 缺必填字段: name
+- [ar-youtube-full] frontmatter 缺必填字段: description
+- WARN:[ar-zero-hallucination-coder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ashutos1997-ashutos1997-claude-design-auditor-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[asklokesh-openclaw] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[asklokesh-prompt-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[auto-skill-loader__skillhub] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[banner-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bdpan-storage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-about] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-album-art-director] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-album-conceptualizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-album-dashboard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-album-ideas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-clipboard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-document-hunter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-explicit-checker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-genre-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-health-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-help] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-import-art] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-import-audio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-lyric-refiner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-lyric-reviewer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-lyric-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-mastering-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-mix-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-new-album] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-plagiarism-checker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-pre-generation-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-promo-director] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-promo-reviewer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-promo-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-promote-idea] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-pronunciation-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-release-director] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-rename] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researcher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researchers-biographical] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researchers-financial] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researchers-gov] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researchers-historical] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researchers-journalism] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researchers-legal] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researchers-primary-source] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researchers-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researchers-tech] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-researchers-verifier] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-resume] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-session-start] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-sheet-music-publisher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-suno-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-test] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-validate-album] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-verify-sources] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bitwize-voice-checker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[blencorp-express] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[blencorp-mui] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[blencorp-nextjs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[blencorp-nodejs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[blencorp-prisma] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[blencorp-react] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[blencorp-route-tester] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[blencorp-tailwindcss] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[blencorp-tanstack-query] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[blencorp-tanstack-router] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[bluzername-terminal-title] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-a11y-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ab-test-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-account-executive] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-activation-funnel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ad-creative] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-aeo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-agent-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-agent-protocol] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-agent-workflow-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-agenthub] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-agentic-evaluation-framework] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-agile-coach] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-agile-product-owner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ai-act-readiness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ai-feature-prd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ai-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ai-seo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-aims-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-analytics-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-analytics-tracking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ansoff-matrix] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-api-design-reviewer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-api-test-suite-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-app-store-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-apple-hig-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-atlassian-admin] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-atlassian-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-aws-solution-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-azure-cloud-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-backlog-refinement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-batch-api-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-beta-program] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-board-deck-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-board-meeting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-brainstorm-experiments] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-brainstorm-ideas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-brainstorm-okrs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-brand-guidelines] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-brand-strategist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-browser-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-business-intelligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-business-investment-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-business-model-canvas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-calendar-prep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-campaign-analytics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-capa-officer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ccpa-cpra-privacy-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ceo-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-cfo-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-change-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-changelog-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-channel-economics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-chaos-engineering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-chief-ai-officer-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-chief-customer-officer-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-chief-data-officer-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-chief-of-staff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-chro-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-churn-prevention] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ci-cd-pipeline-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ciso-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-claude-code-mastery] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-climate-tech] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-cmo-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-code-reviewer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-codebase-onboarding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-codex-cli-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-cold-email] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-commercial-policy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-company-os] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-competitive-intel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-competitive-teardown] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-competitor-alternatives] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-compliance-readiness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-computer-use-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-confluence-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-content-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-content-humanizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-content-production] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-content-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-context-engine] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-contract-and-proposal-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-contract-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-coo-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-copy-editing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-copywriting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-cpo-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-create-prd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-cro-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-cs-onboard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-cto-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-culture-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-customer-feedback-triage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-customer-interview-script] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-customer-success-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-cycle-time-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-daci-framework] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-data-analyst] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-data-breach-response] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-data-quality-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-data-scientist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-database-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-database-schema-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-deal-desk] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-decision-logger] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-delivery-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-dependency-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-dependency-map] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-design-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-design-system-lead] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-devops-workflow-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-doc-drift-detector] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-docker-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-docx-toolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-domain-name-brainstormer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-dora-compliance-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-dossier] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-dpia-assessment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ecommerce] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-edtech] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-email-sequence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-email-template-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-email-triage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-env-secrets-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-eol-communication] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-eu-ai-act-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-executive-mentor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-extended-thinking-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-fda-consultant-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-fda-qsr-audit-prep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-feature-flag-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-feature-flags-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-financial-analyst] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-fintech] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-focused-fix] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-form-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-founder-coach] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-free-tool-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-gcp-cloud-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-gdpr-audit-prep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-gdpr-dsgvo-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-general-counsel-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-git-worktree-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-google-workspace-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-grants] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-growth-marketer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-gtm-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-handoff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-healthtech] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-helm-chart-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-hr-business-partner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ideal-customer-profile] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-identify-assumptions] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-incident-commander] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-information-security-manager-iso27001] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-infrastructure-compliance-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-internal-narrative] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-interview-synthesis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-interview-system-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-intl-expansion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-investor-update-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-invoice-organizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-isms-audit-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-iso42001-ai-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-jira-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-jtbd-workshop] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-kubernetes-operator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-landing-page-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-launch-playbook] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-launch-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-lead-researcher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-lean-canvas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-legal-canned-responses] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-legal-meeting-briefing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-legal-red-team] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-legal-risk-assessment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-linear-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-litreview] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-llm-cost-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ma-playbook] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-marketing-analyst] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-marketing-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-marketing-demand-acquisition] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-marketing-ideas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-marketing-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-marketing-psychology] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-marketing-strategy-pmm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-marketplace] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-mcp-server-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-mdr-745-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-mediation-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-meeting-insights] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-metrics-dashboard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-migration-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ml-ops-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-monorepo-navigator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ms365-tenant-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-nda-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-nda-triage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-nis2-directive-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-nist-csf-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-north-star-metric] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-notion-pm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-observability-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-onboarding-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-operations-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-opportunity-solution-tree] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-org-health-diagnostic] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-outcome-roadmap] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-page-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-paid-ads] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-partnerships-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-patent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-paywall-upgrade-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pci-dss-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pdf-toolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-people-analytics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-performance-profiler] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pitch-deck-reviewer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-playwright-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pm-1on1s] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pm-career-ladder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pm-interview-prep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pm-onboarding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-popup-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-porters-five-forces] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-post-mortem] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pptx-toolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pr-review-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pre-mortem] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-prfaq] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pricing-prd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-pricing-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-prioritization-frameworks] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-privacy-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-privacy-notice-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-product-analytics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-product-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-product-manager-toolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-product-strategist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-product-vision] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-productboard-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-program-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-programmatic-seo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-prompt-engineer-toolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-prompt-governance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-proptech] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-qa-browser-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-qms-audit-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-quality-documentation-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-quality-manager-qmr] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-quality-manager-qms-iso13485] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-quarterly-planning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-rag-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-red-team] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-referral-program] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-regulatory-affairs-head] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-release-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-release-notes] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-release-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-research-summarizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-resume-tailor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-revenue-operations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-risk-management-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-roadmap-communication] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-roadmap-communicator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-runbook-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-saas-metrics-coach] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-saas-scaffolder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-sales-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-sales-operations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-sample-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-scenario-war-room] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-schema-markup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-scrum-master] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-secrets-vault-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-self-improving-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-backend] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-cloud-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-computer-vision] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-data-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-data-scientist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-devops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-frontend] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-fullstack] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-ml-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-mobile] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-pm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-prompt-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-qa] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-secops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-senior-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-seo-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-seo-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-signup-flow-cro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-site-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-skill-router] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-skill-security-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-skill-tester] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-snowflake-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-soc2-audit-prep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-soc2-compliance-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-social-content] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-social-media-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-social-media-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-solutions-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-spec-to-repo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-sprint-plan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-sprint-retrospective] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-sql-database-assistant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-stakeholder-map] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-status-update-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-statute-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-story-mapping] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-story-splitting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-strategic-alignment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-stripe-integration-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-summarize-meeting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-swot-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-tabular-document-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-talent-acquisition] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-tdd-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-tech-contract-negotiation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-tech-debt-tracker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-tech-stack-evaluator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-terraform-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-test-scenarios] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-threat-detection] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ui-design-system] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-ux-researcher-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-value-proposition-canvas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-vendor-due-diligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-video-content-strategist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-vpe-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-weekly-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-whistleblower-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-wwas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-x-twitter-growth] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[borghei-xlsx-toolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[brand] description 未含触发语义（场景/关键词），不利自动调用
+- [brand-guidelines] 路径不安全（穿越/绝对/符号链接）
+- WARN:[byted-bp-cdn-pagesdeploy] description 未含触发语义（场景/关键词），不利自动调用
+- [chart-visualization] 路径不安全（穿越/绝对/符号链接）
+- WARN:[chrisvoncsefalv-chrisvoncsefalvay-claude-d3js-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[claude-api] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[claw-backup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[claw-roam] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[claw-security-panel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[clawbrain] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[clawdbot-filesystem] description 未含触发语义（场景/关键词），不利自动调用
+- [clawsec] frontmatter 缺必填字段: name
+- [clawsec] frontmatter 缺必填字段: description
+- WARN:[clawsec-suite] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[clickhouse-clickhouse-js-node-coding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[clickhouse-clickhouse-js-node-rowbinary] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[clickhouse-clickhouse-js-node-troubleshooting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cloud-upload-backup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-ad-copy-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-cogny] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-community-pulse] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-competitor-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-conversion-debug] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-crm-icp-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-crm-sales-momentum] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-deliverability-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-demand-gen-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-drop-off-rescue] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-email-report] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-ga4-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-ga4-bigquery-schema] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-ga4-events] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-ga4-measurement-plan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-gaql-reference] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-google-ads-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-google-ads-monitor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-google-ads-scripts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-gtm-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-gtm-monitor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-gtm-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-gtm-tracking-plan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-landing-page-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-lead-qualification] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-linkedin-ads-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-linkedin-launch-video] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-linkedin-micro-campaigns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-meta-ads-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-meta-capi] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-pmax-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-pmax-launch-kit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-pre-send-qa] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-reddit-launch-video] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-revenue-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-search-campaign-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-seo-monitor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-shopping-campaign-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-structured-data] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-subject-line-lab] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-submit-to-agentlaunch] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-tiktok-launch-video] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-utm-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-video-to-gif] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-website-migration-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-welcome-series] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cognyai-winback-engine] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[colab-1.3.0] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp--21risk-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp--2chat-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ably-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-abstract-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-abyssale-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-accelo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-accredible-certificates-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-acculynx-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-active-campaign-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-addresszen-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-adobe-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-adrapid-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-adyntel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-aero-workflow-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-aeroleads-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-affinda-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-affinity-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-agencyzoom-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-agent-mail-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-agentql-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-agenty-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-agiled-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-agility-cms-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ahrefs-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ai-ml-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-aivoov-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-alchemy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-algodocs-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-algolia-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-all-images-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-alpha-vantage-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-altoviz-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-alttext-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-amara-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-amazon-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ambee-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ambient-weather-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-amcards-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-anchor-browser-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-anonyflow-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-anthropic-administrator-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-anthropic_administrator-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-apaleo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-apex27-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-api-bible-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-api-labz-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-api-ninjas-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-api-sports-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-api2pdf-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-apiflash-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-apify-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-apilio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-apipie-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-apitemplate-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-apiverve-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-apollo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-appcircle-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-appdrag-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-appointo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-appsflyer-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-appveyor-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-artifacts-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-aryn-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ascora-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ashby-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-asin-data-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-astica-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-async-interview-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-atlassian-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-attio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-auth0-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-autobound-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-autom-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-axonaut-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ayrshare-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-backendless-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bannerbear-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bart-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-baselinker-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-baserow-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-basin-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-battlenet-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-beaconchain-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-beaconstac-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-beamer-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-beeminder-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bench-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-benchmark-email-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-benzinga-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bestbuy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-better-proposals-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-better-stack-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bidsketch-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-big-data-cloud-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bigmailer-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bigml-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bigpicture-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bitquery-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bitwarden-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-blackbaud-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-blackboard-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-blocknative-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-boldsign-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bolna-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-boloforms-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bolt-iot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bonsai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bookingmood-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-booqable-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-borneo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-botbaba-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-botpress-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-botsonic-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-botstar-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bouncer-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-boxhero-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-braintree-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-brandfetch-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-breeze-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-breezy-hr-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-brex-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-brex-staging-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-brightdata-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-brightpearl-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-brilliant-directories-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-browseai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-browser-tool-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-browserbase-tool-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-browserhub-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-browserless-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-btcpay-server-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bubble-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bugbug-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bugherd-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bugsnag-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-buildkite-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-builtwith-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-bunnycdn-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-byteforms-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cabinpanda-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cal-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-calendarhero-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-callerapi-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-callingly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-callpage-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-campaign-cleaner-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-campayn-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-canny-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-canvas-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-capsule-crm-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-capsule_crm-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-carbone-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cardly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-castingwords-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cats-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cdr-platform-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-census-bureau-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-centralstationcrm-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-certifier-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-chaser-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-chatbotkit-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-chatfai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-chatwork-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-chmeetings-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cincopa-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-claid-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-classmarker-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-clearout-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-clickmeeting-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-clockify-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cloudcart-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cloudconvert-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cloudflare-api-key-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cloudflare-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cloudflare-browser-rendering-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cloudinary-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cloudlayer-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cloudpress-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-coassemble-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-codacy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-codeinterpreter-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-codereadr-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-coinbase-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-coinmarketcal-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-coinmarketcap-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-coinranking-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-college-football-data-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-competitive-ads-extractor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-composio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-composio-search-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-connect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-connecteam-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-content-research-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-contentful-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-contentful-graphql-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-control-d-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-conversion-tools-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-convertapi-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-conveyor-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-convolo-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-corrently-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-countdown-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-coupa-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-craftmypdf-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-crowdin-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-crustdata-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cults-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-curated-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-currents-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-customerio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-customgpt-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-customjs-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-cutt-ly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-d2lbrightspace-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dadata-ru-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-daffy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dailybot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-datagma-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-datarobot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-deadline-funnel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-deel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-deepgram-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-demio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-desktime-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-detrack-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-developer-growth-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dialmycalls-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dialpad-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dictionary-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-diffbot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-digicert-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-digital-ocean-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-discordbot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dnsfilter-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dock-certs-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-docker-hub-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-docker_hub-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-docmosis-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-docnify-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-docsbot-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-docsumo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-docugenerate-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-documenso-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-documint-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-docupilot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-docupost-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-docx] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-domain-name-brainstormer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-doppler-marketing-automation-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-doppler-secretops-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dotsimple-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dovetail-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dpd2-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-draftable-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dreamstudio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-drip-jobs-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dripcel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dromo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dropbox-sign-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dropcontact-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dungeon-fighter-online-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-dynamics365-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-echtpost-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-elevenlabs-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-elorus-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-emailable-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-emaillistverify-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-emailoctopus-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-emelia-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-encodian-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-endorsal-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-enginemailer-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-enigma-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-entelligence-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-eodhd-apis-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-epic-games-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-esignatures-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-espocrm-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-esputnik-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-etermin-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-evenium-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-eventbrite-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-eventee-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-eventzilla-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-everhour-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-eversign-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-exa-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-excel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-exist-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-expofp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-extracta-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-facebook-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-faceup-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-factorial-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-feathery-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-felt-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fibery-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fidel-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-file-organizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-files-com-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fillout-forms-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fillout_forms-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-finage-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-findymail-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-finerworks-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fingertip-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-finmei-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fireberry-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-firecrawl-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fireflies-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-firmao-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fitbit-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fixer-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fixer-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-flexisign-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-flowiseai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-flutterwave-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fluxguard-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-folk-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fomo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-forcemanager-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-formbricks-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-formcarry-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-formdesk-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-formsite-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-foursquare-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fraudlabs-pro-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-freshbooks-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-front-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-fullenrich-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gagelist-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gamma-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gan-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gatherup-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gemini-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gender-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-genderapi-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-genderize-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-geoapify-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-geocodio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-geokeo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-getform-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gift-up-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gigasheet-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-giphy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gist-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-givebutter-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gladia-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gleap-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-globalping-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-go-to-webinar-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-godial-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gong-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-goodbits-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-goody-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-google-address-validation-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-google-admin-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-google-classroom-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-google-cloud-vision-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-google-maps-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-google-search-console-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-google_classroom-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-google_maps-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-google_search_console-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-googleads-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-googlebigquery-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-googlecalendar-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-googledocs-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-googledrive-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-googlemeet-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-googlephotos-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-googleslides-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-googlesuper-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-googletasks-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gorgias-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gosquared-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-grafbase-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-graphhopper-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-griptape-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-grist-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-groqcloud-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-gumroad-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-habitica-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-hackernews-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-happy-scribe-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-harvest-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-hashnode-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-helcim-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-helloleads-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-helpwise-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-here-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-heygen-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-heyreach-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-heyzine-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-highergov-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-highlevel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-honeybadger-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-honeyhive-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-hookdeck-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-hotspotsystem-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-html-to-image-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-humanitix-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-humanloop-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-hunter-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-hypeauditor-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-hyperbrowser-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-hyperise-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-hystruct-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-icims-talent-cloud-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-icypeas-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-idea-scale-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-identitycheck-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ignisign-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-image-enhancer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-imagekit-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-imgbb-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-imgix-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-influxdb-cloud-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-insighto-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-instacart-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-instantly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-intelliprint-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-interzoid-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-invoice-organizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ip2location-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ip2location-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ip2proxy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ip2whois-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ipdata-co-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ipinfo-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-iqair-airvisual-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-jigsawstack-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-jobnimbus-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-jumpcloud-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-junglescout-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-kadoa-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-kaggle-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-kaleido-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-keap-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-keen-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-kickbox-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-kit-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-klipfolio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ko-fi-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-kommo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-kontent-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-kraken-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-l2s-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-labs64-netlicensing-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-landbot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-langbase-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-langsmith-fetch] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lastpass-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-launch-darkly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-launch_darkly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lead-research-assistant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-leadfeeder-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-leadoku-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-leiga-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lemlist-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lemon-squeezy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lemon_squeezy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lessonspace-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lever-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lever-sandbox-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-leverly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lexoffice-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-linguapop-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-linkhut-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-linkup-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-listclean-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-listennotes-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-livesession-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lmnt-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-lodgify-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-logo-dev-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-loomio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-loyverse-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-magnetic-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mailbluster-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mailboxlayer-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mailcheck-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mailcoach-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mailerlite-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mailersend-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mails-so-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mailsoftly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-maintainx-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-many-chat-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-many_chat-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mapbox-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mapulus-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mboum-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-meeting-insights-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-melo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mem-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mem0-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-memberspot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-memberstack-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-membervault-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-metaads-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-metaphor-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mezmo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-microsoft-tenant-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-microsoft_clarity-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-minerstat-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-missive-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mistral-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mistral_ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mocean-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-moco-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-modelry-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-moneybird-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-moonclerk-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-moosend-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mopinion-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-more-trees-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-moxie-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-moz-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-msg91-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mural-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mx-technologies-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-mx-toolbox-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-nango-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-nano-nets-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-nasa-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-nasdaq-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ncscale-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-needle-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-neon-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-netsuite-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-neuronwriter-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-neutrino-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-neverbounce-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-new-relic-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-new_relic-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-news-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-nextdns-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ngrok-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ninox-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-nocrm-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-npm-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ocr-web-service-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ocrspace-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-omnisend-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-oncehub-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-onedesk-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-onepage-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-onesignal-rest-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-onesignal_rest_api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-open-sea-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-openai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-opencage-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-opengraph-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-openperplex-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-openrouter-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-openweather-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-optimoroute-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-owl-protocol-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-page-x-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pandadoc-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-paradym-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-parallel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-parma-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-parsehub-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-parsera-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-parseur-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-passcreator-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-passslot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-payhip-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pdf] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pdf-api-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pdf-co-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pdf4me-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pdfless-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pdfmonkey-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-peopledatalabs-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-perigon-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-perplexityai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-persistiq-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pexels-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-phantombuster-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-piggy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-piloterr-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pilvio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pingdom-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pipeline-crm-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-placekey-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-placid-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-plain-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-plasmic-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-platerecognizer-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-plisio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-polygon-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-polygon-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-poptin-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-postgrid-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-postgrid-verify-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-precoro-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-prerender-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-printautopilot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-prisma-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-prismic-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-process-street-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-procfu-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-productboard-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-productlane-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-project-bubble-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-proofly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-proxiedmail-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pushbullet-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-pushover-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-quaderno-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-qualaroo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-quickbooks-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-radar-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-raffle-winner-picker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-rafflys-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ragic-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-raisely-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ramp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ravenseotools-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-re-amaze-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-realphonevalidation-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-recallai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-recruitee-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-refiner-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-remarkety-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-remote-retrieval-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-remove-bg-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-renderform-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-repairshopr-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-replicate-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-reply-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-reply-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-resend-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-respond-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-retailed-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-retellai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-retently-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-rev-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-revolt-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ring-central-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ring_central-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-rippling-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ritekit-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-rkvst-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-rocketlane-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-rootly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-rosette-text-analytics-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-route4me-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-safetyculture-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sage-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-salesforce-marketing-cloud-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-salesforce-service-cloud-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-salesmate-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sap-successfactors-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-satismeter-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-scrape-do-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-scrapegraph-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-scrapfly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-scrapingant-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-scrapingbee-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-screenshot-fyi-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-screenshotone-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-seat-geek-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-securitytrails-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-segmetrics-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-seismic-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-semanticscholar-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-semrush-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sendbird-ai-chabot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sendbird-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sendfox-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sendlane-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sendloop-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sendspark-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sensibo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-seqera-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-serpapi-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-serpdog-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-serply-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-servicem8-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sevdesk-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-share-point-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-share_point-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-shipengine-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-short-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-short-menu-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-shortcut-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-shorten-rest-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-shortpixel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-shotstack-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sidetracker-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-signaturely-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-signpath-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-signwell-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-similarweb-digitalrank-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-similarweb_digitalrank_api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-simla-com-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-simple-analytics-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-simplesat-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sitespeakai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-skill-share] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-skyfire-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-slackbot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-smartproxy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-smartrecruiters-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sms-alert-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-smtp2go-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-smugmug-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sourcegraph-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-splitwise-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-spoki-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-spondyr-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-spotify-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-spotlightr-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sslmate-cert-spotter-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-stack-exchange-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-stannp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-starton-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-statuscake-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-storeganise-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-storerocket-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-stormglass-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-strava-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-streamtime-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-supadata-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-superchat-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-supportbee-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-supportivekoala-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-survey-monkey-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-survey_monkey-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-svix-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-sympla-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-synthflow-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-taggun-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tailored-resume-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-talenthr-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tally-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tapfiliate-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tapform-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tavily-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-taxjar-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-teamcamp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-telnyx-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-teltel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-templated-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-test-app-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-text-to-pdf-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-textcortex-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-textit-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-textrazor-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-thanks-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-the-odds-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-theme-factory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ticketmaster-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ticktick-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-timecamp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-timekit-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-timelinesai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-timelink-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-timely-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tinyurl-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tisane-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-toggl-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-token-metrics-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tomba-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tomtom-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-toneden-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tpscheck-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-tripadvisor-content-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-turbot-pipes-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-turso-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-twelve-data-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-twitch-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-twitter-algorithm-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-twocaptcha-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-typefully-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-typless-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-u301-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-unione-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-updown-io-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-uploadcare-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-uptimerobot-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-v0-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-venly-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-veo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-verifiedemail-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-veriphone-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-vero-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-vestaboard-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-video-downloader] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-virustotal-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-visme-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-waboxapp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-wachete-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-waiverfile-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-wakatime-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-wati-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-wave-accounting-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-wave_accounting-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-weathermap-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-webapp-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-webex-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-webscraping-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-webvizio-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-whautomate-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-winston-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-wit-ai-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-wiz-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-wolfram-alpha-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-woodpecker-co-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-workable-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-workday-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-workiom-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-worksnaps-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-writer-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-xero-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-xlsx] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-y-gy-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-yandex-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-yelp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-ynab-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zenrows-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zenserp-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zeplin-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zerobounce-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho-bigin-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho-books-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho-desk-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho-inventory-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho-invoice-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho-mail-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho_bigin-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho_books-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho_desk-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho_inventory-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho_invoice-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoho_mail-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zoominfo-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zylvie-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[comp-zyte-api-automation] description 未含触发语义（场景/关键词），不利自动调用
+- [composition-patterns] frontmatter 缺必填字段: description
+- WARN:[congmnguyen-codex-delegate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[congmnguyen-commit-push-pr] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[congmnguyen-pytorch-training] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[consulting-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[context7] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cron] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ctx-comprehensive-research-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ctx-context-engineering-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ctx-interleaved-thinking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[cyber-security-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[d103-error-tracking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[data-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-2d-games] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-3d-games] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-academic-cv-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-accessibility] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-accessibility-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-adaptyv] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agent-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agent-manager-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agent-md-refactor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agent-memory-mcp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agent-memory-systems] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agent-messaging] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agent-tool-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agents-autogpt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agents-crewai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agents-langchain] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-agents-llamaindex] description 未含触发语义（场景/关键词），不利自动调用
+- [davila7-agirails-agent-payments] frontmatter 缺必填字段: description
+- WARN:[davila7-alloydb-basics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-alphafold-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-android-cicd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-angular] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-api-design-principles] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-api-documentation-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-api-integration-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-api-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-api-security-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-api-security-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-app-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-app-store-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-arboreto] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-architecture-decision-records] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-architecture-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-async-python-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-autonomous-agents] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-avalonia-layout-zafiro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-avalonia-viewmodels-zafiro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-avalonia-zafiro-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-aws-serverless] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-backend-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-bash-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-benchling-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-bigquery-basics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-biomni] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-bioservices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-brenda-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-bright-data-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-bright-data-mcp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-brightdata-local-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-browser-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-c-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-c4-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-career-changer-translator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cc-skill-backend-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cc-skill-coding-standards] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cc-skill-continuous-learning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cc-skill-frontend-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cc-skill-project-guidelines-example] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cc-skill-strategic-compact] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cellxgene-census] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cf-crawl] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-chembl-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-chrome-extension-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-claude-code-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-claude-opus-4-5-migration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-clean-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-clinical-decision-support] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-clinical-reports] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-clinicaltrials-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-clinpgx-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-clinvar-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cloud-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cloud-devops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cloud-sql-basics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cloudflare-deploy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cobrapy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cocoindex] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-code-review-checklist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-code-review-excellence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-codex-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-commit-smart] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-commit-work] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-competitive-ads-extractor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-content-research-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-context-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-context7-auto-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-convex] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-core-web-vitals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cosmic-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cover-letter-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-cpp-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-creative-portfolio-resume] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-csharp-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-dask] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-data-feeds] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-data-privacy-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-data-processing-nemo-curator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-data-scientist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-database-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-database-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-database-migration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-database-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-database-schema-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-datacommons-client] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-datadog-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-datamol] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-deadline-prep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-debugger] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-debugging-strategies] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-deep-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-deep-research-notebooklm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-deepchem] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-deeptools] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-denario] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-dependabot-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-dependency-updater] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-deployment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-deployment-procedures] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-design-mirror] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-design-system-starter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-design-to-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-developer-growth-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-devops-iac-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-diffdock] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-difficult-workplace-conversations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-discord-bot-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-distributed-training-accelerate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-distributed-training-deepspeed] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-distributed-training-megatron-core] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-distributed-training-pytorch-fsdp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-distributed-training-pytorch-lightning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-django-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-dnanexus-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-docs-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-documentation-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-domain-driven-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-domain-name-brainstormer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-dotnet-backend] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-drugbank-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-electron-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-elixir-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-email-composer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-emerging-techniques-knowledge-distillation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-emerging-techniques-long-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-emerging-techniques-model-merging] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-emerging-techniques-model-pruning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-emerging-techniques-moe-training] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-emerging-techniques-speculative-decoding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-ena-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-ensembl-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-environment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-environment-setup-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-error-resolver] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-esm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-etetoolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-evaluation-bigcode-evaluation-harness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-evaluation-lm-evaluation-harness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-evaluation-nemo-evaluator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-exa-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-excel-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-executing-marketing-campaigns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-executive-resume-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-exploratory-data-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-expo-deployment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-fastapi-endpoint] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-fastapi-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-fastmcp-server] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-fda-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-feature-design-assistant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-feedback-mastery] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-figma-implement-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-fine-tuning-axolotl] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-fine-tuning-llama-factory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-fine-tuning-peft] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-fine-tuning-unsloth] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-firebase] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-firebase-basics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-firecrawl-scraper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-flowio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-fluidsim] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-flutter-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-footballbin-predictions] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-game-art] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-game-audio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-game-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-game-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gcp-cloud-run] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gemini-api-agent-platform] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gene-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-geo-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-geo-fundamentals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-geopandas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gepetto] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gget] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gh-address-comments] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gh-fix-ci] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-git-context-controller] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-github-actions-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-github-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gitops-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gke-basics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gmod-addon-maker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-golang-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-google-analytics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-google-cloud-auth] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-google-cloud-networking-observability] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-google-cloud-onboarding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-google-cloud-waf-cost-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-grafana-dashboards] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-graph-query] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-graphql] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-graphql-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gtars] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-gwas-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-haskell-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-helm-chart-scaffolding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-heygen-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-histolab] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-hmdb-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-hono] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-humanizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-hypogenic] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-hypothesis-generation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-i18n-localization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-image-enhancer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-incident-responder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-inference-serving-llama-cpp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-inference-serving-sglang] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-inference-serving-tensorrt-llm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-inference-serving-vllm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-infrastructure-lambda-labs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-infrastructure-skypilot] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-interview-prep-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-invoice-organizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-it-operations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-java-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-javascript-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-javascript-testing-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-job-description-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-k6-load-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-kotlin-coroutines-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-kubernetes-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-labarchive-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-latchbio-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-latex-posters] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-lead-research-assistant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-linear-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-literature-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-llm-evaluation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-llm-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-manifest] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-manim] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-market-research-reports] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-markitdown] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-marp-slide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-matchms] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-matplotlib] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-mechanistic-interpretability-nnsight] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-mechanistic-interpretability-pyvene] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-mechanistic-interpretability-saelens] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-mechanistic-interpretability-transformer-lens] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-medchem] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-memory-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-mermaid-diagram-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-mermaid-diagrams] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-metabolomics-workbench-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-microservices-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-ml-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-ml-paper-writing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-mlops-mlflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-mlops-tensorboard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-mlops-weights-and-biases] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-mobile-games] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-modal] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-model-architecture-litgpt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-model-architecture-mamba] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-model-architecture-nanogpt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-model-architecture-rwkv] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-model-architecture-torchtitan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-molfeat] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-motion-canvas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-move-code-quality] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-multimodal-audiocraft] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-multimodal-blip-2] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-multimodal-clip] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-multimodal-llava] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-multimodal-segment-anything] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-multimodal-stable-diffusion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-multimodal-whisper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-multiplayer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-naming-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-neon-instagres] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-netlify-deploy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-neurokit2] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-neuropixels-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-new] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-nextjs-app-router-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-nextjs-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-nodejs-backend-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-nodejs-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-notion-knowledge-capture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-notion-meeting-intelligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-notion-research-documentation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-notion-spec-to-implementation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-nowait] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-observability-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-observability-langsmith] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-observability-phoenix] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-offer-comparison-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-omero-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-openalex-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-openapi-to-typescript] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-opentargets-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-opentrons-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-optimization-awq] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-optimization-bitsandbytes] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-optimization-flash-attention] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-optimization-gguf] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-optimization-gptq] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pathml] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pc-games] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pdb-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pdf-fill-studio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pdf-processing-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-peer-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pennylane] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-performance-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-performance-profiling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-perplexity-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-php-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-planning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-playwright-e2e-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-playwright-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-plugin-forge] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-polars] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-portfolio-case-study-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-post-training-grpo-rl-training] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-post-training-miles] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-post-training-simpo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-post-training-slime] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-post-training-torchforge] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-post-training-trl-fine-tuning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-post-training-verl] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-postgresql] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-postgresql-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-powershell-windows] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pptx-posters] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-premium-web-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-production-code-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-professional-communication] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-prometheus-configuration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-prompt-engineering-dspy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-prompt-engineering-guidance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-prompt-engineering-instructor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-prompt-engineering-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-protocolsio-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pubchem-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pydeseq2] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pydicom] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pyhealth] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pylabrobot] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pymatgen] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pymc] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pymoo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pysam] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pytdc] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-python-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-python-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-pytorch-lightning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-qa-test-planner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-qutip] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-raffle-winner-picker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-rag-chroma] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-rag-faiss] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-rag-pinecone] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-rag-qdrant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-rag-sentence-transformers] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-railway-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-rdkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-react-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-react-component-performance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-react-native-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-react-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-reactome-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-red-team-tactics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-reducing-entropy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-reference-list-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-remotion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-remotion-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-render-deploy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-research-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-research-grants] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-research-lookup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-resume-ats-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-resume-formatter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-resume-section-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-resume-version-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-ruby-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-rust-cli-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-rust-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-saas-multi-tenant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-safety-alignment-constitutional-ai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-safety-alignment-llamaguard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-safety-alignment-nemo-guardrails] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-salary-negotiation-prep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-sast-configuration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-scala-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-scanpy] description 未含触发语义（场景/关键词），不利自动调用
+- [davila7-scholar-evaluation] frontmatter 缺必填字段: name
+- [davila7-scholar-evaluation] frontmatter 缺必填字段: description
+- WARN:[davila7-scientific-brainstorming] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-scientific-critical-thinking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-scientific-schematics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-scientific-visualization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-scikit-bio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-scikit-survival] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-scrape] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-screenshot-feature-extractor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-seaborn] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-secrets-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-security-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-security-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-security-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-security-ownership-map] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-security-threat-model] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-seo-fundamentals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-seo-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-seoagent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-server-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-service] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-session-handoff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-shadcn] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-shap] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-ship-learn-next] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-shopify-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-skill-judge] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-skill-share] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-slack-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-sql-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-statistical-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-statsmodels] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-string-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-supply-chain-guard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-sveltekit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-swift-concurrency-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-tailwind-design-system] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-tailwind-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-tanstack-query-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-task-execution-engine] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-tavily-web] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-tdd-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-tdd-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-tech-resume-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-terraform-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-test-detect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-theme-factory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-think-tank] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-tokenization-huggingface-tokenizers] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-tokenization-sentencepiece] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-torch_geometric] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-torchdrug] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-transcribe] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-typescript-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-typescript-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-ui-ux-pro-max] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-umap-learn] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-uspto-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-venue-templates] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-video-downloader] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-voice-agents] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-vr-ar] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-vulnerability-scanner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-web-games] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-web-performance-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-web-quality-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-web-security-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-webapp-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-workflow-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-worktree-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-zarr-python] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-zinc-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-zod-validation-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[davila7-zustand-store-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-ashare-news-fetcher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-asr-transcribe-to-text] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-auto-repo-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-benchmark-due-diligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-bigdata-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-bilibili-source] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-capture-screen] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-claude-code-history-files-finder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-claude-export-txt-better] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-claude-md-progressive-disclosurer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-claude-migrate-memory-to-doc] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-claude-skills-troubleshooting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-claude-switch-models-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-claude-usage-analyst] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-cli-demo-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-cloudflare-troubleshooting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-continue-claude-work] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-debugging-network-issues] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-deep-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-doc-to-markdown] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-docs-cleaner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-douban-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-download-gemini-images] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-excel-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-fact-checker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-feishu-doc-scraper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-financial-data-collector] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-frontend-visual-qa] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-gangtise-copilot] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-github-contributor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-github-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-github-sensitive-data-cleanup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-iOS-APP-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-ima-copilot] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-llm-eval-harness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-llm-icon-finder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-llm-wiki-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-local-codex] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-macos-cleaner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-marketplace-dev] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-marketplace-health-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-meeting-minutes-taker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-mermaid-tools] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-notify-wecom] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-openclaw-model-switch] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-pdf-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-pdf-to-html] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-pharma-daily-report] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-ppt-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-product-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-prompt-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-read-claude-web-conversation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-repomix-safe-mixer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-repomix-unmixer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-setup-notifications-via-wecom] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-skill-governance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-skill-reviewer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-statusline-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-stepfun-asr] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-stepfun-tts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-teams-channel-post-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-terminal-screenshot] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-terraform-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-transcript-fixer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-tunnel-doctor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-twitter-reader] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-ui-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-windows-remote-desktop-connection-doctor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[daymade-wps-doc-scraper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[deapi-deapi] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[decision-mapping] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[digitalsamba-acestep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[digitalsamba-elevenlabs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[digitalsamba-ideogram4] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[digitalsamba-ltx2] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[digitalsamba-moviepy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[digitalsamba-openclaw-video-toolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[digitalsamba-remotion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[digitalsamba-remotion-official] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[disler-meta-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[disler-video-processor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[dogfood] description 未含触发语义（场景/关键词），不利自动调用
+- [douyin-interact-creation] 路径不安全（穿越/绝对/符号链接）
+- [douyinpay-payment-integration] 路径不安全（穿越/绝对/符号链接）
+- WARN:[drawio-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[dreamiurg-route-researcher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-accessibility] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-agent-architecture-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-agent-eval] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-agent-harness-construction] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-agent-introspection-debugging] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-agent-payment-x402] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-agent-sort] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-agentic-engineering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-agentic-os] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-ai-first-engineering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-ai-regression-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-android-clean-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-api-connector-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-api-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-architecture-decision-records] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-article-writing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-automation-audit-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-autonomous-agent-harness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-autonomous-loops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-backend-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-blueprint] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-brand-voice] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-carrier-relationship-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-cisco-ios-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-ck] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-claude-devfleet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-code-tour] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-codehealth-mcp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-compose-multiplatform-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-config-gc] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-content-engine] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-content-hash-cache-pattern] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-context-budget] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-continuous-agent-loop] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-continuous-learning-v2] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-cost-aware-llm-pipeline] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-cost-tracking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-council] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-cpp-coding-standards] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-crosspost] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-csharp-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-customer-billing-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-customs-trade-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-dart-flutter-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-dashboard-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-data-scraper-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-database-migrations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-defi-amm-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-delivery-gate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-deployment-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-django-celery] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-django-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-django-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-django-tdd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-django-verification] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-dmux-workflows] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-docker-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-dotnet-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-dynamic-workflow-mode] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-e2e-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-ecc-recipes] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-email-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-energy-procurement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-enterprise-agent-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-error-handling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-eval-harness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-evm-token-decimals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-fal-ai-media] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-fastapi-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-finance-billing-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-flox-environments] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-flutter-dart-code-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-foundation-models-on-device] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-frontend-a11y] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-frontend-design-direction] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-frontend-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-fsharp-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-gan-style-harness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-gateguard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-generating-python-installer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-git-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-golang-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-golang-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-google-workspace-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-healthcare-cdss-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-healthcare-emr-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-healthcare-eval-harness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-healthcare-phi-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-hermes-imports] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-hexagonal-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-hipaa-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-homelab-network-readiness] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-homelab-network-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-homelab-pihole-dns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-homelab-vlan-segmentation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-homelab-wireguard-vpn] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-intent-driven-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-inventory-demand-planning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-investor-materials] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-investor-outreach] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-ios-icon-gen] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-iterative-retrieval] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-ito-data-atlas-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-ito-market-intelligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-ito-trade-planner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-java-coding-standards] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-jpa-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-knowledge-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-kotlin-coroutines-flows] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-kotlin-exposed-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-kotlin-ktor-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-kotlin-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-kotlin-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-kubernetes-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-laravel-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-laravel-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-laravel-tdd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-laravel-verification] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-lead-intelligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-liquid-glass-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-llm-trading-agent-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-logistics-exception-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-mailtrap-email-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-make-interfaces-feel-better] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-manim-video] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-market-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-marketing-campaign] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-mcp-server-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-ml-adoption-playbook] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-mle-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-motion-advanced] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-motion-foundations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-motion-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-mysql-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-nanoclaw-repl] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-nestjs-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-netmiko-ssh-automation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-network-bgp-diagnostics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-network-config-validation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-network-interface-health] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-nextjs-turbopack] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-nodejs-keccak256] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-nutrient-document-processing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-nuxt4-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-openclaw-persona-forge] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-opensource-pipeline] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-orch-add-feature] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-orch-build-mvp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-orch-change-feature] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-orch-fix-defect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-orch-pipeline] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-orch-refine-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-perl-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-perl-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-perl-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-plan-canvas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-plan-orchestrate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-plankton-code-quality] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-postgres-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-prediction-market-oracle-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-prediction-market-risk-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-prisma-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-product-capability] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-production-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-production-scheduling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-project-flow-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-prompt-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-python-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-python-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-pytorch-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-quality-nonconformance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-quarkus-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-quarkus-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-quarkus-tdd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-quarkus-verification] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-ralphinho-rfc-pipeline] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-react-native-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-react-performance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-react-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-redis-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-remotion-video-creation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-repo-scan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-returns-reverse-logistics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-rules-distill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-rust-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-rust-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-santa-method] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-scientific-db-pubmed-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-scientific-db-uspto-database] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-scientific-pkg-gget] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-scientific-thinking-literature-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-scientific-thinking-scholar-evaluation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-search-first] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-security-bounty-hunter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-security-scan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-skill-comply] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-skill-scout] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-social-graph-ranker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-social-publisher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-springboot-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-springboot-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-springboot-tdd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-springboot-verification] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-strategic-compact] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-swift-actor-persistence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-swift-concurrency-6-2] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-swift-protocol-di-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-swiftui-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-taste] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-team-agent-orchestration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-team-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-tinystruct-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-unified-notifications-ops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-verification-loop] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-video-editing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-videodb] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-visa-doc-translate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-vite-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-vue-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-windows-desktop-e2e] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-workspace-surface-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ecc-x-api] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[edit-article] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-access-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-agent-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-alert-triage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-case-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-create-project] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-detection-rule-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-edot-dotnet-instrument] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-edot-dotnet-migrate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-edot-java-instrument] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-edot-java-migrate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-edot-python-instrument] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-edot-python-migrate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-elasticsearch-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-elasticsearch-authn] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-elasticsearch-authz] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-elasticsearch-esql] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-elasticsearch-file-ingest] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-elasticsearch-onboarding] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-elasticsearch-security-troubleshooting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-generate-security-sample-data] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-k8s-investigation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-kibana-alerting-rules] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-kibana-anomaly-detection] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-kibana-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-kibana-connectors] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-kibana-dashboards] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-kibana-vega] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-llm-obs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-logs-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-manage-project] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-manage-slos] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-network-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-service-health] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[elastic-streams] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[electron] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[em-intel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[email] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[email-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[emaynard-emaynard-claude-family-history-research-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[emblemcompany-emblem-ai-agent-wallet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[emblemcompany-emblem-ai-prompt-examples] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[emblemcompany-emblem-defi-yield] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[emblemcompany-emblem-market-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[emblemcompany-emblem-memecoin-scout] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[emblemcompany-emblem-portfolio-tracker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[emblemcompany-emblem-token-swap] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[evolver] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fbs_bookwriter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fcakyon-anthropic-frontend-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fcakyon-atlas-stream-processing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fcakyon-electron] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fcakyon-mongodb-connection] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fcakyon-mongodb-natural-language-querying] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fcakyon-mongodb-search-and-ai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fcakyon-react-native-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fcakyon-slides] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fcakyon-stripe-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[fcakyon-upgrade-stripe] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ferrumclaudepil-minimum-viable] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ferrumclaudepil-scope-framing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ferrumclaudepil-termux-safe] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[figma] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-audit-agents-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-audit-codebase] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-autoresearch] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-canary] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-catchup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-ccboard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-ceo-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-check-cache-bugs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-ci-all] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-ci-pipeline] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-ci-status] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-ci-tests] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-commit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-cyber-defense-team] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-design-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-diagnose] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-eng-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-eval-agents] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-eval-hooks] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-eval-rules] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-eval-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-execute] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-explain] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-generate-tests] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-git-worktree] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-git-worktree-clean] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-git-worktree-remove] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-git-worktree-status] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-guide-recap] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-handoff-create] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-handoff-resume] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-handoff-update] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-issue-triage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-land-and-deploy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-learn-alternatives] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-learn-quiz] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-learn-teach] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-mcp-integration-reference] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-methodology-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-optimize] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-plan-pipeline] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-pr] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-pr-triage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-qa] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-recipe-template] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-refactor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-release-notes] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-release-notes-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-review-plan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-review-pr] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-rtk-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-sandbox-status] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-scaffold] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-security-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-security-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-self-assessment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-session-save] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-ship] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-sonarqube] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-audit-prose] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-audit-whitepapers] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-ccguide-daily] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-ccguide-diff-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-ccguide-init-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-ccguide-refresh-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-changelog] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-methodology-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-sync] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-track-mentions] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-source-command-update-infos-release] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-stage-1-extract] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-stage-2-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-stage-3-concepts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-stage-4-position] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-stage-5-script] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-stage-6-revision] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-start] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-update-threat-db] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-validate-changes] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[florianbruniaux-voice-refine] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[flyai] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[frontend-dev] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[frontend-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[gh-cli] description 未含触发语义（场景/关键词），不利自动调用
+- [git-commit] 路径不安全（穿越/绝对/符号链接）
+- WARN:[git-guardrails-claude-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[github-agentic-workflows] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[global-mandatory-rules] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[gokapso-automate-whatsapp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[gokapso-integrate-whatsapp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[gokapso-observe-whatsapp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[grill-me] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[grill-with-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[guancli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[guandata-cli-suite] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[guands] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[guanetl] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[guanmetric] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[guanvis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[guanwf] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[handoff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-aws-ami-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-azure-image-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-azure-verified-modules] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-provider-actions] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-provider-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-provider-resources] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-provider-test-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-push-to-registry] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-refactor-module] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-terraform-search-import] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-terraform-stacks] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-terraform-style-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hashicorp-windows-builder] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-anomaly-alert] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-anomaly-alert] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-api-error-report] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-api-error-report] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-benchmark] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-benchmark] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-budget-set] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-budget-set] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-cache-efficiency] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-cache-efficiency] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-concurrency-report] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-concurrency-report] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-config-audit] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-config-audit] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-cost-alert] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-cost-alert] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-cost-breakdown] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-cost-breakdown] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-cwd-rollup] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-cwd-rollup] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-dag-map] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-dag-map] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-daily-budget-check] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-daily-budget-check] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-daily-standup] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-daily-standup] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-dashboard-status] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-dashboard-status] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-data-export] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-data-export] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hoangsonww-debug-live-issue] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-delegation-audit] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-delegation-audit] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-endpoint-probe] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-endpoint-probe] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-error-propagation] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-error-propagation] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-error-scan] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-error-scan] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-event-trace] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-event-trace] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-fleet-runs] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-fleet-runs] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-health-check] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-health-check] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-hook-diagnostics] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-hook-diagnostics] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-hook-failure-audit] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-hook-failure-audit] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-hook-inventory] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-hook-inventory] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-live-watch] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-live-watch] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-mcp-audit] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-mcp-audit] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-memory-review] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-memory-review] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-model-mix] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-model-mix] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-model-savings] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-model-savings] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-monthly-review] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-monthly-review] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-optimization-suggest] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-optimization-suggest] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-pattern-detect] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-pattern-detect] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-productivity-score] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-productivity-score] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-quick-stats] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-quick-stats] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-regression-alert] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-regression-alert] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-regression-watch] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-regression-watch] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-session-cleanup] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-session-cleanup] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-session-compare] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-session-compare] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-session-debug] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-session-debug] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-session-report] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-session-report] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-session-search] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-session-search] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-session-timeline] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-session-timeline] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-skill-inventory] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-skill-inventory] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-slo-check] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-slo-check] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-spend-forecast] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-spend-forecast] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-sprint-summary] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-sprint-summary] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-time-of-day] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-time-of-day] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-transcript-grep] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-transcript-grep] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-transcript-replay] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-transcript-replay] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[hoangsonww-update-project-docs] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-usage-trends] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-usage-trends] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-weekly-report] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-weekly-report] description 未含触发语义（场景/关键词），不利自动调用
+- [hoangsonww-workflow-optimizer] frontmatter 缺必填字段: name
+- WARN:[hoangsonww-workflow-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- [hook-analyzer-skill] 路径不安全（穿越/绝对/符号链接）
+- WARN:[huangserva-intelligent-prompt-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[huangserva-prompt-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[huangserva-universal-learner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[humanizer-humanizer-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ikuai-report] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ima] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ima-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[imap-smtp-email] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[impeccable] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[implement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[improve-codebase-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- [internal-comms] 路径不安全（穿越/绝对/符号链接）
+- WARN:[ipwebcam] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jackyst0-api-doc-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jackyst0-code-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jackyst0-debug-helper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jackyst0-git-commit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jackyst0-unit-test-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jawwadfirdousi-german-elster-tax-filing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jawwadfirdousi-prompt-template-wizard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jawwadfirdousi-read-only-gh-pr-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jawwadfirdousi-svg-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jawwadfirdousi-trello] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-angular-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-atlassian-mcp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-chaos-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-code-documenter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-debugging-wizard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-devops-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-feature-forge] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-kotlin-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-laravel-specialist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-microservices-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-ml-pipeline] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-monitoring-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-pandas-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-rails-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-react-native-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-rust-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-salesforce-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-security-reviewer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-shopify-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-spec-miner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-spring-boot-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-sre-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-swift-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-test-master] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-vue-expert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-vue-expert-js] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[jeffallan-wordpress-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[joannis-deckset] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[joannis-swift-concurrency] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[joannis-swift-nio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[joannis-wendy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[joannis-wendy-cloud-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[joannis-wendy-contributing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[joannis-wendy-lite] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[js-api-doc-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[js-code-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[js-git-commit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[js-unit-test-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[js33-concept-workflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[js33-fact-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[js33-resource-curator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[js33-test-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[js33-write-concept] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[karpathy-coding-guidelines] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[karpathy-curated-rss-brief] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[karpathy-guidelines] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[karpathy-llm-wiki] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[karpathy-principles] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[karpathy-wiki] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[karpathy-wiki-cn] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[kdocs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[komal-home-assistant-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-ai-based-api] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-designer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-documentation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-health-monitoring] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-inference-from-files] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-integration-helper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-mocking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-ratelimit-helper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-sdk-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-security-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-to-testcase-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-api-versioning-helper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-appium-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-behat-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-behave-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-capybara-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-cicd-pipeline-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-codeception-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-cucumber-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-cypress-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-detox-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-espresso-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-flutter-testing-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-gauge-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-geb-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-graphql-grpc-helper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-hyperexecute-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-jasmine-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-jest-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-junit-5-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-karma-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-laravel-dusk-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-lettuce-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-mocha-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-mstest-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-nemojs-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-newman-report-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-newman-script-helper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-nightwatchjs-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-nunit-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-openapi-spec-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-phpunit-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-playwright-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-popular-api-fetcher] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-postman-collection-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-postman-openapi-converter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-postman-testcase-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-postman-to-newman] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-protractor-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-puppeteer-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-pytest-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-reqnroll-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-robot-framework-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-rspec-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-selenide-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-selenium-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-serenity-bdd-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-smartui-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-specflow-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-test-framework-migration-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-testcafe-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-testng-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-testunit-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-unittest-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-vitest-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-webdriverio-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-xcuitest-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lambdatest-xunit-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lark-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-agent-graphs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-aiconfig-agent-graphs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-aiconfig-ai-metrics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-aiconfig-create] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-aiconfig-custom-metrics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-aiconfig-online-evals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-aiconfig-projects] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-aiconfig-snippets] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-aiconfig-targeting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-aiconfig-update] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-aiconfig-variations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-apply] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-built-in-metrics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-configs-create] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-configs-targeting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-configs-update] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-configs-variations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-create-graph] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-custom-metrics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-detect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-first-flag] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-launchdarkly-experiment-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-launchdarkly-flag-cleanup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-launchdarkly-flag-command] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-launchdarkly-flag-create] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-launchdarkly-flag-discovery] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-launchdarkly-flag-targeting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-launchdarkly-guarded-rollout] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-launchdarkly-metric-choose] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-launchdarkly-metric-create] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-launchdarkly-metric-instrument] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-migrate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-online-evals] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-plan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-projects] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-sdk-install] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-snippets] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[launchdarkly-tools] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[leeguooooo-claude-statusbar] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lexiang-knowledge-base] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lk-mcp-config] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lk-obsidian-to-x] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lk-skill-creator-pro] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[lk-vscode-httpyac-config] description 未含触发语义（场景/关键词），不利自动调用
+- [local-asr] 路径不安全（穿越/绝对/符号链接）
+- [local-computer-use] 路径不安全（穿越/绝对/符号链接）
+- [local-img2img] 路径不安全（穿越/绝对/符号链接）
+- [local-mineru] 路径不安全（穿越/绝对/符号链接）
+- [local-ocr-npu] 路径不安全（穿越/绝对/符号链接）
+- [local-realtime-translator] 路径不安全（穿越/绝对/符号链接）
+- [local-screenshot-qa] 路径不安全（穿越/绝对/符号链接）
+- [local-tts] 路径不安全（穿越/绝对/符号链接）
+- [local-txt2img] 路径不安全（穿越/绝对/符号链接）
+- [local-vram] 路径不安全（穿越/绝对/符号链接）
+- WARN:[makenotion-knowledge-capture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[makenotion-meeting-intelligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[makenotion-research-documentation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[makenotion-spec-to-implementation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[meituan-travel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[memory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-architecture-diagram-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-code-auditor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-code-execution] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-code-refactor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-codebase-documenter] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-conversation-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-dashboard-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-ensemble-solving] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-feature-planning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-file-operations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-flowchart-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-project-bootstrapper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-technical-doc-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mhattingpete-timeline-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[michalparkola-article-extractor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[michalparkola-scrum-sage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[michalparkola-session-log] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-airunway-aks-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-appinsights-instrumentation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-agents-persistent-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-agents-persistent-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-contentsafety-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-contentunderstanding-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-document-intelligence-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-formrecognizer-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-ml-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-openai-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-projects-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-projects-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-textanalytics-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-transcription-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-translation-document-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-translation-text-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-vision-imageanalysis-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-voicelive-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-voicelive-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-ai-voicelive-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-aigateway] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-appconfiguration-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-appconfiguration-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-cloud-migrate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-compute-batch-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-containerregistry-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-cosmos-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-cosmos-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-cosmos-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-cosmos-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-cost] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-data-tables-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-deploy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-diagnostics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-enterprise-infra-planner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-eventgrid-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-eventgrid-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-eventhub-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-eventhub-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-eventhub-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-identity-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-identity-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-identity-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-keyvault-certificates-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-keyvault-keys-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-keyvault-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-keyvault-secrets-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-kubernetes] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-kusto] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-maps-search-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-messaging] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-messaging-webpubsubservice-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-mgmt-apicenter-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-mgmt-apicenter-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-mgmt-apimanagement-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-mgmt-apimanagement-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-mgmt-applicationinsights-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-mgmt-botservice-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-mgmt-botservice-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-mgmt-fabric-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-mgmt-fabric-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-mgmt-weightsandbiases-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-monitor-ingestion-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-monitor-ingestion-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-monitor-opentelemetry-exporter-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-monitor-opentelemetry-exporter-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-monitor-opentelemetry-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-monitor-query-java] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-monitor-query-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-postgres-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-prepare] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-quotas] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-reliability] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-resource-lookup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-resource-manager-cosmosdb-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-resource-manager-durabletask-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-resource-manager-mysql-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-resource-manager-playwright-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-resource-manager-postgresql-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-resource-manager-redis-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-resource-manager-sql-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-resource-visualizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-search-documents-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-search-documents-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-security-keyvault-keys-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-servicebus-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-servicebus-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-servicebus-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-speech-to-text-rest-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-storage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-storage-blob-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-storage-blob-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-storage-blob-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-storage-file-datalake-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-storage-file-share-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-storage-file-share-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-storage-queue-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-storage-queue-rust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-storage-queue-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-upgrade] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-azure-validate] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-capacity] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-cloud-solution-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-continual-learning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-customize] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-debugview] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-declarative-agent-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-deploy-model] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-entra-agent-id] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-entra-app-registration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-finetuning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-frontend-design-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-install-atk] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-kql] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-m365-agent-evaluator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-m365-agents-dotnet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-m365-agents-py] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-m365-agents-ts] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-microsoft-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-microsoft-foundry] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-python-appservice-deploy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-slack-to-teams] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-teams-app-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-ui-widget-developer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-wiki-ado-convert] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-wiki-agents-md] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[microsoft-wiki-llms-txt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[migrate-to-shoehorn] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mktg-community-marketing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-ask-matt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-claude-handoff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-design-an-interface] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-grill-me] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-grill-with-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-handoff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-implement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-improve-codebase-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-loop-me] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-obsidian-vault] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-scaffold-exercises] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-setup-pre-commit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-to-spec] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-to-tickets] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-triage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-ubiquitous-language] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-wayfinder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-wizard] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-writing-beats] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-writing-fragments] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-writing-great-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mp-writing-shape] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-aesthetic] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-ai-multimodal] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-backend-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-better-auth] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-bunny] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-chrome-devtools] description 未含触发语义（场景/关键词），不利自动调用
+- [mrgoonie-claude-code] frontmatter 缺必填字段: name
+- [mrgoonie-claude-code] frontmatter 缺必填字段: description
+- WARN:[mrgoonie-collision-zone-thinking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-context-engineering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-databases] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-debugging] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-defense-in-depth] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-devops] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-docs-seeker] description 未含触发语义（场景/关键词），不利自动调用
+- [mrgoonie-google-adk-python] frontmatter 缺必填字段: name
+- [mrgoonie-google-adk-python] frontmatter 缺必填字段: description
+- WARN:[mrgoonie-inversion-exercise] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-mcp-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-media-processing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-meta-pattern-recognition] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-payment-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-problem-solving] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-repomix] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-scale-game] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-shopify] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-simplification-cascades] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-verification-before-completion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-web-frameworks] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-web-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mrgoonie-when-stuck] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mtunion-product-ai-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[mupeng-prompt-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[notion] description 未含触发语义（场景/关键词），不利自动调用
+- [notmyself-speckit-updater] frontmatter 缺必填字段: name
+- [notmyself-speckit-updater] frontmatter 缺必填字段: description
+- WARN:[oai-aspnet-core] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[oai-chatgpt-apps] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[oai-cli-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[oai-figma-code-connect-components] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[oai-figma-generate-library] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[oai-figma-use] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[oai-hatch-pet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[oai-migrate-to-codex] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[oai-playwright-interactive] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[oai-winui-app] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-ai-elements] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-autoresearch] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-browser-trace] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-caveman] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-find-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-get-api-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-grill-with-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-handoff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-imagegen-frontend-web] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-improve-codebase-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-kimi-webbridge] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-minimax-docx] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-minimax-pdf] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-minimax-xlsx] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-pptx-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-smart-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ok-x-twitter-scraper] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-ai-slop-cleaner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-ask] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-autopilot] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-autoresearch] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-cancel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-ccg] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-configure-notifications] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-debug] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-deep-dive] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-deep-interview] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-deepinit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-external-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-hud] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-learner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-mcp-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-omc-doctor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-omc-reference] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-omc-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-omc-teams] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-plan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-project-session-manager] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-ralph] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-ralplan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-release] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-remember] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-sciomc] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-self-improve] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-skillify] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-team] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-trace] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-ultragoal] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-ultraqa] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-ultrawork] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-verify] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-visual-verdict] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-wiki] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[omc-writer-memory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[openai-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[openclaw-session-cleanup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[openclawpanel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[optimize-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-competitive-ads-extractor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-content-research-writer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-domain-name-brainstormer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-file-organizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-image-enhancer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-invoice-organizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-lead-research-assistant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-notion-knowledge-capture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-notion-meeting-intelligence] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-notion-research-documentation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-notion-spec-to-implementation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-raffle-winner-picker] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-resemble-detect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-theme-factory] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-video-downloader] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[p11-webapp-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[pchalasani-log-work] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[pchalasani-make-issue-spec] description 未含触发语义（场景/关键词），不利自动调用
+- [pchalasani-msg] frontmatter 缺必填字段: name
+- WARN:[pchalasani-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[pchalasani-recover-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[pchalasani-session-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[pchalasani-tmux-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[persona-switch] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[pidgesms] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[playwright-mcp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[plugin-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[proactive-agent] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[prompt-improver] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[prototype] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[qcc-company] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[qclaw-cron-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[qclaw-env] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[qclaw-rules] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-cleanup-cycles] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-cleanup-dedupe] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-cleanup-defensive] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-cleanup-legacy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-cleanup-slop] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-cleanup-types] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-cleanup-weak-types] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-finish-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-goms-klm-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-components-content] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-components-controls] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-components-dialogs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-components-layout] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-components-menus] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-components-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-components-status] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-components-system] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-doctor-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-foundations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-inputs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-platforms] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-project-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-hig-technologies] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[raintree-human-processor-model] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rameerez-download-video] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rameerez-transcribe-video] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rameerez-x-post] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-accessibility-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-ads-creative-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-ads-performance-analytics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-after-action-report] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-ai-content-collaboration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-analytics-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-art-direction] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-backup-and-disaster-recovery] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-beta-program-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-brand-archetype-system] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-brand-ideation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-brand-identity] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-brand-style-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-calculator-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-chatbot-flow-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-code-review-web] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-comparison-tool-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-competitor-experience-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-content-and-copy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-content-brief-authoring] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-content-distribution] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-content-migration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-content-refresh-system] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-content-repurposing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-creative-brief] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-creative-brief-selector] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-cro-optimization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-discovery-research-synthesis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-editorial-qa] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-email-sequences] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-evidence-based-reviews] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-experiment-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-experimentation-analytics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-feature-flagging] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-feature-launch-playbook] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-form-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-frontend-component-build] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-funnel-flow-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-incident-response] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-information-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-integration-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-interactive-product-tour] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-journey-mapping] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-jtbd-framing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-landing-page-copy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-launch-runbook] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-lead-magnet-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-logo-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-long-form-content-frameworks] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-media-asset-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-multi-step-form-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-okr-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-paid-media-strategy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-pillar-content-architecture] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-pm-spec-writing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-product-analytics-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-product-configurator-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-qa-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-quiz-and-assessment-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-roadmap-planning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-scheduler-and-booking-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-aeo-geo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-audit-orchestration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-backlink-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-content-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-content-gap-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-keyword] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-keyword-gap-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-offpage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-onpage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-rank-tracking] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-site-health-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-seo-traffic-diagnosis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-skill-creation-walkthrough] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-stakeholder-communication] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-team-onboarding-playbook] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-usability-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rampstackco-vertical-site-conventions] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[react-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- [react-native-skills] 路径不安全（穿越/绝对/符号链接）
+- [redis-development] 路径不安全（穿越/绝对/符号链接）
+- WARN:[redis-redis-clustering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[redis-redis-connections] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[redis-redis-core] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[redis-redis-observability] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[redis-redis-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[redis-redis-security] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[redis-redis-semantic-cache] description 未含触发语义（场景/关键词），不利自动调用
+- [report-generator-skill] 路径不安全（穿越/绝对/符号链接）
+- WARN:[reverse-engineering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-app-creator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-app-growth-playbook] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-app-review-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-app-store-listing-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-app-store-opportunity-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-book-architect] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-book-idea-validator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-book-ideation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-book-market-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-book-research-assistant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-brainstorm] description 未含触发语义（场景/关键词），不利自动调用
+- [robertguss-code-documenter] frontmatter 缺必填字段: description
+- WARN:[robertguss-ebook-concept-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-ghost-writer] description 未含触发语义（场景/关键词），不利自动调用
+- [robertguss-handoff] frontmatter 缺必填字段: description
+- WARN:[robertguss-mobile-app-launch-checklist] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-paywall-pricing-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-simple-tasks] description 未含触发语义（场景/关键词），不利自动调用
+- [robertguss-skill-creator] frontmatter 缺必填字段: description
+- WARN:[robertguss-writing-dna-discovery] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[robertguss-xcode-makefiles] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rtk] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[rtk-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sanity-content-experimentation-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sanity-content-modeling-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sanity-portable-text-conversion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sanity-portable-text-serialization] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sanity-sanity-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sanity-sanity-migration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sanity-seo-aeo-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-arbor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-autoskill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-bgpt-paper-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-bids] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-bulk-rnaseq] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-clinical-decision-support] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-clinical-reports] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-cobrapy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-consciousness-council] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-database-lookup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-deeptools] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-depmap] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-dhdna-profiler] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-dnanexus-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-etetoolkit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-experimental-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-flowio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-geomaster] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-ginkgo-cloud-lab] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-glycoengineering] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-imaging-data-commons] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-infographics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-iso-13485-certification] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-labarchive-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-latchbio-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-latex-posters] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-liteparse] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-market-research-reports] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-markitdown] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-matlab] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-medchem] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-molecular-dynamics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-molfeat] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-nextflow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-omero-integration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-onekgpd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-open-notebook] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-optimize-for-gpu] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-pacsomatic] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-paper-lookup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-paperzilla] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-parallel-web] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-pathway-enrichment] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-phylogenetics] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-polars-bio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-pptx-posters] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-primekg] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-pydeseq2] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-pymatgen] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-pymc] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-pymoo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-pysam] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-pytdc] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-pytorch-lightning] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-research-grants] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-rowan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-scholar-evaluation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-scikit-bio] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-scvelo] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-statistical-power] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-tamarind] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-tiledbvcf] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-timesfm-forecasting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-usfiscaldata] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-what-if-oracle] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[sci-zarr-python] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[scrcpy-claw] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[screenshot] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[security-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[seifbenayed-browse] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[seifbenayed-chatgpt-search] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[self-improve] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[self-improvement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[self-reflection] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-after] description 未含触发语义（场景/关键词），不利自动调用
+- [serpro69-alpha] frontmatter 缺必填字段: name
+- [serpro69-alpha] frontmatter 缺必填字段: description
+- WARN:[serpro69-before] description 未含触发语义（场景/关键词），不利自动调用
+- [serpro69-beta] frontmatter 缺必填字段: name
+- [serpro69-beta] frontmatter 缺必填字段: description
+- WARN:[serpro69-chain-of-verification] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-dependency-handling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-diff-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-document] description 未含触发语义（场景/关键词），不利自动调用
+- [serpro69-golang-security] frontmatter 缺必填字段: name
+- WARN:[serpro69-golang-security] description 未含触发语义（场景/关键词），不利自动调用
+- [serpro69-golang-testing] frontmatter 缺必填字段: name
+- WARN:[serpro69-golang-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-implement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-merge-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-review-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-review-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-review-spec] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-test] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[serpro69-test-skill] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shadcn] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-ai-development-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-coding-principles] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-documentation-criteria] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-external-resource-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-frontend-ai-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-integration-e2e-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-llm-friendly-context] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-add-integration-tests] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-build] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-diagnose] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-front-adjust] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-front-build] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-front-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-front-plan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-front-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-fullstack-build] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-fullstack-implement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-implement] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-plan] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-prepare-implementation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-reverse-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-task] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-recipe-update-doc] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-testing-principles] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[shinpr-typescript-rules] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[skill-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[skill-installer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[skill-optimizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[skillopt] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[slides] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[smerchek-markdown-to-epub] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[software-engineer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ssh-remote-control] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[superpowers] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-address-sanitizer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-aflpp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-algorand-vulnerability-scanner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-atheris] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-audit-augmentation] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-audit-context-building] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-audit-prep-assistant] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-c-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-cairo-vulnerability-scanner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-cargo-fuzz] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-chrome-mcp-troubleshooting] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-code-maturity-assessor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-codeql] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-constant-time-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-cosmos-vulnerability-scanner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-coverage-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-crypto-protocol-diagram] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-debug-buttercup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-designing-workflow-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-diagramming-code] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-differential-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-dimensional-analysis] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-entry-point-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-firebase-apk-scanner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-fp-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-fuzzing-dictionary] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-fuzzing-obstacles] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-genotoxic] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-git-cleanup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-graph-evolution] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-guidelines-advisor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-harness-writing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-insecure-defaults] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-interpreting-culture-index] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-libafl] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-libfuzzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-mermaid-to-proverif] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-mutation-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-ossfuzz] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-property-based-testing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-rust-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-ruzzy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-sarif-parsing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-second-opinion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-secure-workflow-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-semgrep] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-solana-vulnerability-scanner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-substrate-vulnerability-scanner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-testing-handbook-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-token-integration-analyzer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-ton-vulnerability-scanner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-trailmark] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-trailmark-structural] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-trailmark-summary] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-vector-forge] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-wycheproof] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tb-yara-rule-authoring] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tencent-docs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tencent-news] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tencent-survey] description 未含触发语义（场景/关键词），不利自动调用
+- [test-case-generator] frontmatter 缺必填字段: name
+- [test-case-generator] frontmatter 缺必填字段: description
+- WARN:[test-driven-development] description 未含触发语义（场景/关键词），不利自动调用
+- [test-driven-revolution] frontmatter 缺必填字段: name
+- [test-driven-revolution] frontmatter 缺必填字段: description
+- WARN:[test-sentinel] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[to-issues] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[to-prd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tongdaxin-mcp] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[tool-calling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[trend-radar] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[triage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ui-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ui-ux-pro-max] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ui-ux-pro-max-zh__skillhub] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[uipm-brand] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[uipm-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[uipm-slides] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[uipm-ui-ux-pro-max] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[undeadlist-bug-fix] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[undeadlist-full-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[undeadlist-new-feature] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[undeadlist-pre-commit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[undeadlist-pre-deploy] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[undeadlist-release-prep] description 未含触发语义（场景/关键词），不利自动调用
+- [vercel-composition-patterns] frontmatter 缺必填字段: description
+- [vercel-react-native-skills] frontmatter 缺必填字段: description
+- WARN:[web-design] description 未含触发语义（场景/关键词），不利自动调用
+- [webapp-testing] 路径不安全（穿越/绝对/符号链接）
+- WARN:[wecom-weisheng-scrm] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[wecomcli-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[weiyun] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[weread-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[wordpress-wp-abilities-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[wordpress-wp-abilities-verify] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[wordpress-wp-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[workflow-orchestrator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[writing-great-skills] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-accessibility-compliance] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-brand-landingpage] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-context-driven-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-design-system-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-evaluation-methodology] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-file-conversion] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-hermes-tweet] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-interaction-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-mobile-android-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-mobile-ios-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-multi-reviewer-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-parallel-debugging] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-parallel-feature-development] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-prompt-engineering-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-protect-mcp-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-python-background-jobs] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-python-code-style] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-python-configuration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-python-design-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-python-error-handling] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-python-observability] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-python-project-structure] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-python-resilience] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-python-resource-management] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-python-type-safety] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-react-native-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-responsive-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-review-agent-setup] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-signed-audit-trails-recipe] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-social-publishing] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-task-coordination-strategies] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-team-communication-protocols] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-team-composition-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-visual-design-foundations] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ws-web-component-design] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[xbrowser] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ykdojo-half-clone] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ykdojo-handoff] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ykdojo-hn-summarize] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ykdojo-reddit-fetch] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ykdojo-review-claudemd] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[ykdojo-version-check] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[youdaonote] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[yuandian] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-academic-paper-reviewer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-api-shape-explorer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-audit-flow] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-authentication-patterns] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-caching] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-chart-image] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-ci] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-code-to-diagram] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-code-vuln-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-core] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-cv-tailor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-data-viz-renderer] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-database-scout] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-dataset-quality-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-deep-module-refactor] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-design-system-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-dev-guide-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-http-load-profiler] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-log-error-digest] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-migration] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-pipeline-blueprint] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-playwright] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-playwright-cli] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-project-sizing-guide] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-r2-upload] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-r3f-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-regression-modeler] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-regulatory-audit-generator] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-repo-audit] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-route-to-openapi] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-scholarly-writing-refiner] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-secure-code-review] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-sql-insight] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-three-best-practices] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-timeline-builder] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zebbern-vc-industry-research] description 未含触发语义（场景/关键词），不利自动调用
+- WARN:[zhiyierxing-auto-phone] description 未含触发语义（场景/关键词），不利自动调用
