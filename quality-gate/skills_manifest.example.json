@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "runs": [
+    {
+      "schema_version": 1,
+      "run_id": "global-mandatory-rules-workbuddy-20260803",
+      "skill_id": "global-mandatory-rules",
+      "skill_sha256": "df514607db144b9f614ee0bd1df95d0e2c9c592b161f205cc1f138d8ba15cb3c",
+      "record_sha256": "example-record-sha-placeholder",
+      "runner": {
+        "product": "WorkBuddy",
+        "model": "local",
+        "mode": "Craft",
+        "surface": "desktop"
+      },
+      "executed_at": "2026-08-03T13:45:00Z",
+      "conversation_url": "",
+      "input_mode": "prompt_only",
+      "input_summary": "加载后按规范执行强制备份→小结→确认→归档全流程",
+      "network_research": false,
+      "outcome": "full",
+      "output_file": "output.md",
+      "output_sha256": "example-output-sha-placeholder",
+      "review": {
+        "status": "approved",
+        "reviewer": "expert",
+        "reviewed_at": "2026-08-03T13:50:00Z",
+        "scope": [
+          "结构校验通过",
+          "frontmatter 含 name/description/trigger"
+        ]
+      },
+      "limitations": [
+        "示例记录，未做真实生产验收"
+      ]
+    }
+  ]
+}
